@@ -1,0 +1,10 @@
+name: scldsrp
+displayName: Scaled Serpulo & more
+author: Vicestuck
+description:
+  '''
+- This mod adds in 1/2 scaled tiers of Serpulo blocks, with extra Q-o-L blocks in certain categories.
+- thanks to original author: [#ffd37f]mq_1175[] 
+  '''
+version: 1.0
+minGameVersion: 146
