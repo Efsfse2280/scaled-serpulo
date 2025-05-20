@@ -1,0 +1,35 @@
+{
+  "type": "Drill",
+  "size": 2,
+  "scaledHealth": 50,
+  "tier": 3,
+  "drillMultipliers": {
+    "sand": 1.8,
+    "scrap": 1.6,
+    "coal": 1.4
+  },
+  "rotateSpeed": 1.8,
+  "drillTime": 496,
+  "drawRim": false,
+  "itemCapacity": 20,
+  "warmupSpeed": 0.01,
+  "drillEffect": "mine",
+  "hasLiquids": true,
+  "liquidCapacity": 60,
+  "hardnessDrillMultiplier": 40,
+  "consumes": {
+    "liquid": {
+      "liquid": "water",
+      "amount": 0.07,
+      "booster": true,
+      "optional": true
+    }
+  },
+  "requirements": [
+    "graphite/24",
+    "metaglass/20",
+    "silicon/14"
+  ],
+  "category": "production",
+  "research": "pneumatic-drill"
+}

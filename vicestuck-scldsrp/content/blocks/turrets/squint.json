@@ -1,0 +1,94 @@
+{
+  "shootSound": "shootAlt",
+  "ammoPerShot": 4,
+  "maxAmmo": 20,
+  "ammoTypes": {
+    "copper": {
+      "type": "ShrapnelBulletType",
+      "serrations": 0,
+      "shootEffect": "hitBulletSmall",
+      "smokeEffect": "hitBulletSmall",
+      "toColor": "d99d73",
+      "width": 8,
+      "length": 248,
+      "damage": 50,
+      "ammoMultiplier": 2,
+      "lifetime": 90,
+      "buildingDamageMultiplier": 0.2,
+      "pierce": true,
+      "pierceCap": 2
+    },
+    "graphite": {
+      "type": "ShrapnelBulletType",
+      "serrations": 0,
+      "shootEffect": "hitBulletSmall",
+      "smokeEffect": "hitBulletSmall",
+      "toColor": "b2c6d2",
+      "width": 10,
+      "length": 264,
+      "damage": 90,
+      "ammoMultiplier": 5,
+      "buildingDamageMultiplier": 0.2,
+      "pierce": true,
+      "pierceCap": 4,
+      "rangeChange": 16
+    },
+
+    "silicon": {
+      "type": "ShrapnelBulletType",
+      "serrations": 0,
+      "shootEffect": "hitBulletSmall",
+      "smokeEffect": "hitBulletSmall",
+      "toColor": "53565c",
+      "width": 9,
+      "length": 248,
+      "damage": 80,
+      "reloadMultiplier": 1.25,
+      "ammoMultiplier": 7,
+      "buildingDamageMultiplier": 0.2,
+      "pierce": true,
+      "pierceCap": 1
+    },
+    "titanium": {
+      "type": "ShrapnelBulletType",
+      "serrations": 0,
+      "shootEffect": "hitBulletSmall",
+      "smokeEffect": "hitBulletSmall",
+      "toColor": "8da1e3",
+      "width": 10,
+      "length": 288,
+      "damage": 110,
+      "ammoMultiplier": 3,
+      "buildingDamageMultiplier": 0.2,
+      "pierce": true,
+      "pierceCap": 4,
+      "rangeChange": 40
+    }
+  },
+  "requirements": ["copper/70", "graphite/60", "silicon/40"],
+  "research": {
+    "parent": "trio"
+  },
+  "reload": 165,
+  "recoil": 0.3,
+  "shootY": 3,
+  "shootCone": 37.5,
+  "targetInterval": 76,
+  "range": 256,
+  "category": "turret",
+  "health": 800,
+  "hasPower": true,
+  "hasLiquids": true,
+  "coolantMultiplier": 7.5,
+  "consumes": {
+    "power": 2,
+    "coolant": {
+      "amount": 0.2,
+      "booster": true,
+      "optional": true
+    }
+  },
+  "size": 2,
+  "rotateSpeed": 2,
+  "type": "ItemTurret"
+}

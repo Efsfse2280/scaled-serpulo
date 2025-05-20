@@ -1,0 +1,32 @@
+{
+  "type": "GenericCrafter",
+  "size": 4,
+  "scaledHealth": 65,
+  "hasPower": true,
+  "hasItems": true,
+  "itemCapacity": 60,
+  "liquidCapacity": 30,
+  "craftTime": 118,
+  "craftEffect": "smokeCloud",
+  "consumes": {
+    "power": 11.2,
+    "items": {
+      "items": ["spore-pod/3"]
+    },
+    "liquid": {
+      "liquid": "oil",
+      "amount": 0.38
+    }
+  },
+  "requirements": [
+    "lead/360",
+    "graphite/240",
+    "titanium/360",
+    "silicon/300",
+    "plastanium/200",
+    "phase-fabric/40"
+  ],
+  "category": "crafting",
+  "research": "1a-n-coal-centrifuge-ii",
+  "outputItem": "coal/19"
+}

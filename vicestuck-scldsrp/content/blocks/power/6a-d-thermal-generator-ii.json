@@ -1,0 +1,11 @@
+{
+  "type": "ThermalGenerator",
+  "size": 3,
+  "scaledHealth": 60,
+  "powerProduction": 2.4,
+  "generateEffect": "redgeneratespark",
+  "floating": true,
+  "requirements": ["lead/270", "silicon/230", "thorium/180", "plastanium/2110"],
+  "category": "power",
+  "research": "thermal-generator"
+}

@@ -1,0 +1,45 @@
+{
+  "type": "AttributeCrafter",
+  "size": 4,
+  "scaledHealth": 65,
+  "boostScale": 0.15,
+  "maxBoost": 1.5,
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawFlame",
+        "flameColor": "ffef99",
+        "flameRadius": 4.5,
+        "flameRadiusIn": 2.5,
+        "flameRadiusScl": 4,
+        "flameRadiusMag": 2,
+        "flameRadiusInMag": 1.7
+      }
+    ]
+  },
+  "hasPower": true,
+  "hasItems": true,
+  "itemCapacity": 64,
+  "craftTime": 96,
+  "craftEffect": "smeltsmoke",
+  "consumes": {
+    "power": 12,
+    "items": {
+      "items": ["graphite/8", "sand/16", "blast-compound/2"]
+    }
+  },
+  "requirements": [
+    "metaglass/400",
+    "titanium/360",
+    "silicon/320",
+    "surge-alloy/80",
+    "plastanium/120"
+  ],
+  "category": "crafting",
+  "research": "silicon-crucible",
+  "outputItem": "silicon/22"
+}

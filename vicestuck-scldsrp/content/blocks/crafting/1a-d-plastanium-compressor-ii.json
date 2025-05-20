@@ -1,0 +1,44 @@
+{
+  "type": "GenericCrafter",
+  "size": 3,
+  "scaledHealth": 60,
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawFade"
+      }
+    ]
+  },
+  "hasPower": true,
+  "hasItems": true,
+  "itemCapacity": 24,
+  "liquidCapacity": 72,
+  "craftTime": 180,
+  "craftEffect": "formsmoke",
+  "updateEffect": "plasticburn",
+  "consumes": {
+    "power": 10,
+    "items": {
+      "items": ["titanium/13"]
+    },
+    "liquid": {
+      "liquid": "oil",
+      "amount": 0.5
+    }
+  },
+  "requirements": [
+    "lead/200",
+    "graphite/180",
+    "titanium/280",
+    "silicon/360",
+    "plastanium/200",
+    "thorium/100"
+  ],
+  "category": "crafting",
+  "research": "plastanium-compressor",
+  "outputItem": "plastanium/8"
+}

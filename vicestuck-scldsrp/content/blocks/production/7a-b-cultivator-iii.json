@@ -1,0 +1,54 @@
+{
+  "type": "AttributeCrafter",
+  "category": "production",
+  "requirements": [
+    "lead/280",
+    "plastanium/160",
+    "silicon/240",
+    "surge-alloy/60",
+    "phase-fabric/20"
+  ],
+  "outputItem": "spore-pod/16",
+  "craftTime": 217,
+  "size": 4,
+  "scaledHealth": 80,
+  "liquidCapacity": 100,
+  "hasLiquids": true,
+  "itemCapacity": 30,
+  "hasPower": true,
+  "hasItems": true,
+  "craftEffect": "none",
+  "attribute": "spores",
+  "maxBoost": 4,
+  "envRequired": 8,
+  "consumes": {
+    "power": 13.6,
+    "liquid": "water/0.82",
+    "items": {
+      "items": [
+        "sand/2"
+      ]
+    }
+  },
+
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom"
+      },
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "water"
+      },
+      {
+        "type": "DrawCultivator"
+      },
+      {
+        "type": "DrawDefault"
+      }
+    ]
+  },
+  "research": "7a-b-cultivator-ii"
+}

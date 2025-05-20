@@ -1,0 +1,50 @@
+{
+  "type": "GenericCrafter",
+  "size": 4,
+  "scaledHealth": 60,
+  "craftEffect": "smokeCloud",
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawRegion",
+        "suffix": "-spinner",
+        "rotateSpeed": 3,
+        "spinSprite": true
+      },
+      {
+        "type": "DrawRegion",
+        "suffix": "-top"
+      }
+    ]
+  },
+  "hasPower": true,
+  "hasItems": true,
+  "liquidCapacity": 60,
+  "itemCapacity": 35,
+  "craftTime": 120,
+  "consumes": {
+    "power": 4.8,
+    "items": {
+      "items": ["sand/24", "lead/16", "spore-pod/13"]
+    },
+    "liquid": {
+      "liquid": "oil",
+      "amount": 0.25
+    }
+  },
+  "requirements": [
+    "lead/500",
+    "titanium/300",
+    "silicon/200",
+    "metaglass/180",
+    "plastanium/140",
+    "thorium/80"
+  ],
+  "category": "crafting",
+  "research": "1a-h-pyratite-mixer-ii",
+  "outputItem": "pyratite/18"
+}

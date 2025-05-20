@@ -1,0 +1,31 @@
+{
+  "type": "CoreBlock",
+  "scaledHealth": 370,
+  "armor": 8,
+  "size": 6,
+  "itemCapacity": 21600,
+  "unitCapModifier": 36,
+  "researchCostMultiplier": 0.075,
+  "thrusterLength": 7,
+  "unitType": "a-upsilon",
+  "requirements": [
+    "copper/16000",
+    "lead/16000",
+    "titanium/13200",
+    "thorium/12000",
+    "silicon/16000",
+    "plastanium/14000",
+    "surge-alloy/10000",
+    "phase-fabric/10000"
+  ],
+  "category": "effect",
+  "research": {
+    "parent": "core-nucleus",
+    "objectives": [
+      {
+        "type": "SectorComplete",
+        "preset": "planetaryTerminal"
+      }
+    ]
+  }
+}

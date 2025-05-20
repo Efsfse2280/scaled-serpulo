@@ -1,0 +1,15 @@
+{
+  "type": "SolarGenerator",
+  "size": 4,
+  "scaledHealth": 75,
+  "hasPower": true,
+  "powerProduction": 3.6,
+  "requirements": [
+    "lead/160",
+    "silicon/200",
+    "phase-fabric/120",
+    "tita-silicarb/60"
+  ],
+  "category": "power",
+  "research": "solar-panel-large"
+}

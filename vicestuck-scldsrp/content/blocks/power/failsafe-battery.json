@@ -1,0 +1,19 @@
+{
+  "type": "battery",
+  "size": 5,
+  "scaledHealth": 110,
+  "armor": 2,
+  "consumes": {
+    "powerBuffered": 400000
+  },
+  "research": "battery-large",
+  "category": "power",
+  "requirements": [
+    "lead/400",
+    "graphite/360",
+    "silicon/430",
+    "plastanium/320",
+    "phase-fabric/140",
+    "surge-alloy/100"
+  ]
+}

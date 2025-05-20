@@ -1,0 +1,38 @@
+{
+  "type": "ConsumeGenerator",
+  "size": 2,
+  "scaledHealth": 35,
+  "hasPower": true,
+  "hasItems": true,
+  "powerProduction": 2.15,
+  "ambientSound": "steam",
+  "itemCapacity": 20,
+  "generateEffect": "generatespark",
+  "itemDuration": 144,
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawWarmupRegion"
+      }
+    ]
+  },
+  "consumes": {
+    "itemFlammable": {}
+  },
+  "category": "power",
+  "research": "steam-generator",
+  "itemDurationMultipliers": {
+    "spore-pod": 2.3,
+    "pyratite": 4
+  },
+  "requirements": [
+    "titanium/60",
+    "silicon/40",
+    "graphite/40",
+    "metaglass/30"
+  ]
+}

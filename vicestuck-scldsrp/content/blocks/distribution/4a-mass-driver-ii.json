@@ -1,0 +1,25 @@
+{
+  "type": "MassDriver",
+  "size": 4,
+  "itemCapacity": 300,
+  "scaledHealth": 55,
+  "range": 800,
+  "reload": 500,
+  "hasPower": true,
+  "consumes": {
+    "power": 5,
+    "liquid": {
+      "liquid": "cryofluid",
+      "amount": 0.2
+    }
+  },
+  "requirements": [
+    "plastanium/180",
+    "titanium/200",
+    "silicon/180",
+    "lead/240",
+    "thorium/100"
+  ],
+  "category": "distribution",
+  "research": "mass-driver"
+}

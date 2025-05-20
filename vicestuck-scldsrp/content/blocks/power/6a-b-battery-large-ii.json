@@ -1,0 +1,16 @@
+{
+  "type": "battery",
+  "size": 4,
+  "scaledHealth": 70,
+  "consumes": {
+    "powerBuffered": 128000
+  },
+  "research": "battery-large",
+  "category": "power",
+  "requirements": [
+    "lead/240",
+    "titanium/200",
+    "thorium/120",
+    "silicon/200"
+  ]
+}

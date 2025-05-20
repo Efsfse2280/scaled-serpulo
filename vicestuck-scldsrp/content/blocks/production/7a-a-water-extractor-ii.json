@@ -1,0 +1,27 @@
+{
+  "type": "SolidPump",
+  "size": 3,
+  "scaledHealth": 50,
+  "baseEfficiency": 1.08,
+  "liquidCapacity": 90,
+  "consumes": {
+    "power": 4
+  },
+  "attribute": "water",
+  "drawer": {
+    "type": "DrawRegion",
+    "suffix": "-rotator2",
+    "rotateSpeed": 1.8,
+    "spinSprite": true
+  },
+  "requirements": [
+    "lead/120",
+    "titanium/100",
+    "silicon/140",
+    "metaglass/120",
+    "thorium/60"
+  ],
+  "category": "production",
+  "pumpAmount": 0.24,
+  "research": "7a-a-water-extractor-ii"
+}

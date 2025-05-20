@@ -1,0 +1,114 @@
+{
+  "type": "GenericCrafter",
+  "size": 4,
+  "scaledHealth": 105,
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom"
+      },
+      {
+        "type": "DrawLiquidRegion",
+        "drawLiquid": "cryofluid",
+        "alpha": 0.64
+      },
+      {
+        "type": "DrawWarmupRegion",
+        "color": "ffbb4ac0",
+        "sinMag": 0.72,
+        "sinScl": 10
+      },
+      {
+        "type": "DrawDefault"
+      }
+    ]
+  },
+  "hasPower": true,
+  "hasLiquids": true,
+  "itemCapacity": 30,
+  "liquidCapacity": 420,
+  "craftTime": 144,
+  "outputsLiquid": true,
+  "consumes": {
+    "power": 27,
+    "items": {
+      "items": ["titanium/11", "silicon/5"]
+    },
+    "liquid": {
+      "liquid": "cryofluid",
+      "amount": 0.6
+    }
+  },
+  "requirements": [
+    "copper/400",
+    "titanium/200",
+    "silicon/300",
+    "plastanium/160",
+    "metaglass/300",
+    "surge-alloy/120"
+  ],
+  "category": "crafting",
+  "research": {
+    "parent": "1a-k-disassembler-ii",
+    "objectives": ["planetaryTerminal"]
+  },
+  "craftEffect": {
+    "type": "MultiEffect",
+    "effects": [
+      {
+        "type": "RadialEffect",
+        "rotationOffset": 22.5,
+        "rotationSpacing": 45,
+        "lengthOffset": 5,
+        "amount": 8,
+        "effect": [
+          {
+            "type": "MultiEffect",
+            "effects": [
+              {
+                "type": "ParticleEffect",
+                "followParent": true,
+                "particles": 5,
+                "region": "large-bomb-back",
+                "lifetime": 72,
+                "colorFrom": "646973a0",
+                "colorTo": "6b76bf90",
+                "length": 12,
+                "baseLength": 12,
+                "sizeFrom": 9,
+                "cone": 5.625,
+                "sizeInterp": "pow2Out"
+              },
+              {
+                "type": "ParticleEffect",
+                "followParent": true,
+                "particles": 7,
+                "region": "large-bomb",
+                "lifetime": 72,
+                "colorFrom": "646973f0",
+                "colorTo": "6b76bfb0",
+                "length": 12,
+                "baseLength": 12,
+                "sizeFrom": 7,
+                "cone": 11.25,
+                "sizeInterp": "pow2Out"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "WaveEffect",
+        "sizeFrom": 5,
+        "sizeTo": 26,
+        "lifetime": 56,
+        "strokeFrom": 1.2,
+        "colorFrom": "ffffffc0",
+        "colorTo": "6b76bfd0"
+      }
+    ]
+  },
+  "outputItem": "tita-silicarb/2"
+}

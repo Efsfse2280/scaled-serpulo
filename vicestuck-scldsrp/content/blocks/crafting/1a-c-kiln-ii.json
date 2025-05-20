@@ -1,0 +1,48 @@
+{
+  "type": "AttributeCrafter",
+  "boostScale": 0.15,
+  "scaledHealth": 50,
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawFlame",
+        "flameColor": "ffc099",
+        "flameRadius": 4,
+        "flameRadiusIn": 2,
+        "flameRadiusScl": 4,
+        "flameRadiusMag": 2,
+        "flameRadiusInMag": 1.7
+      }
+    ]
+  },
+  "size": 3,
+  "hasPower": true,
+  "hasItems": true,
+  "itemCapacity": 28,
+  "craftTime": 108,
+  "craftEffect": "smeltsmoke",
+  "updateEffect": "none",
+  "consumes": {
+    "power": 4.2,
+    "items": {
+      "items": ["sand/7", "lead/7"]
+    },
+    "liquid": {
+      "liquid": "water",
+      "amount": 0.29
+    }
+  },
+  "requirements": [
+    "plastanium/70",
+    "titanium/160",
+    "silicon/120",
+    "metaglass/100"
+  ],
+  "category": "crafting",
+  "research": "kiln",
+  "outputItem": "metaglass/9"
+}

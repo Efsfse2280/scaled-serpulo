@@ -1,0 +1,20 @@
+{
+  "type": "Pump",
+  "size": 4,
+  "scaledHealth": 55,
+  "liquidCapacity": 540,
+  "pumpAmount": 0.48,
+  "hasPower": true,
+  "consumes": {
+    "power": 5.4
+  },
+  "requirements": [
+    "titanium/240",
+    "metaglass/200",
+    "silicon/180",
+    "lead/280",
+    "thorium/160"
+  ],
+  "category": "liquid",
+  "research": "impulse-pump"
+}

@@ -1,0 +1,21 @@
+{
+  "type": "LaunchPad",
+  "scaledHealth": 65,
+  "size": 4,
+  "launchTime": 1230,
+  "itemCapacity": 400,
+  "consumes": {
+    "power": 19,
+    "liquids": ["oil/0.3"]
+  },
+  "requirements": [
+    "titanium/400",
+    "lead/500",
+    "silicon/360",
+    "plastanium/240",
+    "thorium/300"
+  ],
+  "category": "effect",
+  "buildVisibility": "campaignOnly",
+  "research": "landing-pad"
+}

@@ -1,0 +1,56 @@
+{
+  "type": "Separator",
+  "size": 4,
+  "scaledHealth": 75,
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "drawRegion",
+        "suffix": "-bottom"
+      },
+      {
+        "type": "DrawLiquidRegion",
+        "drawLiquid": "slag"
+      },
+      {
+        "type": "DrawRegion",
+        "suffix": "-spinner-1",
+        "rotateSpeed": 3,
+        "spinSprite": true
+      },
+      {
+        "type": "DrawRegion",
+        "suffix": "-spinner-2",
+        "rotateSpeed": 2,
+        "spinSprite": true
+      },
+      {
+        "type": "DrawDefault"
+      }
+    ]
+  },
+  "hasPower": true,
+  "hasLiquids": true,
+  "hasItems": true,
+  "itemCapacity": 30,
+  "liquidCapacity": 50,
+  "craftTime": 6,
+  "consumes": {
+    "power": 14.8,
+    "liquid": {
+      "liquid": "slag",
+      "amount": 0.85
+    }
+  },
+  "results": ["graphite/17", "thorium/9", "titanium/13"],
+  "category": "crafting",
+  "research": "disassembler",
+  "requirements": [
+    "titanium/280",
+    "silicon/340",
+    "plastanium/200",
+    "thorium/220",
+    "surge-alloy/70"
+  ]
+}

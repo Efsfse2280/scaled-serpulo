@@ -1,0 +1,46 @@
+{
+  "type": "ConsumeGenerator",
+  "size": 4,
+  "scaledHealth": 50,
+  "hasPower": true,
+  "hasItems": true,
+  "powerProduction": 33.9,
+  "hasLiquids": "true",
+  "liquidCapacity": 20,
+  "ambientSound": "steam",
+  "itemCapacity": 35,
+  "generateEffect": "generatespark",
+  "itemDuration": 44,
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "drawRegion",
+        "suffix": "-bottom"
+      },
+      {
+        "type": "DrawLiquidRegion",
+        "drawLiquid": "cryofluid",
+        "suffix": "-liquid"
+      },
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawWarmupRegion",
+      }
+    ]
+  },
+  "consumes": {
+    "itemFlammable": {},
+    "liquid": "cryofluid/0.064"
+  },
+  "category": "power",
+  "research": "steam-generator",
+  "requirements": [
+    "titanium/320",
+    "silicon/440",
+    "metaglass/360",
+    "plastanium/160"
+  ]
+}
