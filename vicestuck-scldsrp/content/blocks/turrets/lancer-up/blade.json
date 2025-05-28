@@ -1,0 +1,36 @@
+"type": "PowerTurret",
+"size": 3,
+"health": 1600,
+"range": 174,
+"rotateSpeed": 3.8,
+"reload": 160,
+"shoot": {
+  "type": "ShootBarrel",
+  "shots": 3,
+  "shotDelay": 3,
+   "barrels": [
+    8, 0, 0, 
+    0, 0, 0, 
+    -8, 0, 0
+  ]
+},
+"consumes": {
+  "power": 10
+} ,
+"recoil": 3,
+"shootSound": "laser",
+"shootType": {
+  "type": "LaserBulletType",
+  "length": 154,
+  "width": 26,
+  "damage": 92,
+  "pierce": true,
+  "pierceAmount": 4
+},
+"category": "turret",
+"requirements": [
+  "lead/400"
+  "graphite/320"
+  "silicon/200"
+  "plastanium/120"
+]

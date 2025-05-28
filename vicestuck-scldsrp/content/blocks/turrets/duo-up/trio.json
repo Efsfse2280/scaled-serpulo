@@ -1,0 +1,90 @@
+{
+  "shootSound": "shootBig",
+  "shoot": {
+    "type": "shootAlternate",
+    "barrels": 2,
+    "spread": 6
+  },
+  "ammoPerShot": 2,
+  "maxAmmo": 40,
+  "ammoTypes": {
+    "scrap": {
+      "damage": 14,
+      "reloadMultiplier": 0.8,
+      "ammoMultiplier": 3,
+      "width": 7,
+      "height": 16,
+      "frontColor": "777777",
+      "backColor": "6b6b6b",
+      "buildingDamageMultiplier": 0.8,
+      "status": "rusted",
+      "statusDuration": 180,
+      "speed": 6,
+      "lifetime": 30,
+      "inaccuracy": 7
+    },
+    "copper": {
+      "damage": 10,
+      "ammoMultiplier": 5,
+      "width": 7,
+      "height": 17,
+      "frontColor": "d99d73",
+      "backColor": "cd8166",
+      "pierce": true,
+      "pierceCap": 1,
+      "speed": 6,
+      "lifetime": 32,
+      "rangeChange": 12,
+      "inaccuracy": 4
+    },
+    "graphite": {
+      "damage": 18,
+      "ammoMultiplier": 5,
+      "width": 8,
+      "height": 19,
+      "backColor": "a6bac6",
+      "pierce": true,
+      "pierceCap": 2,
+      "speed": 7,
+      "lifetime": 30,
+      "rangeChange": 30,
+      "inaccuracy": 2
+    },
+
+    "silicon": {
+      "damage": 16,
+      "reloadMultiplier": 1.25,
+      "ammoMultiplier": 6,
+      "width": 7,
+      "height": 18,
+      "frontColor": "53565c",
+      "backColor": "474a40",
+      "buildingDamageMultiplier": 0.5,
+      "speed": 8,
+      "lifetime": 22.5,
+      "homingPower": 0.07
+    }
+  },
+  "requirements": ["copper/50", "lead/20", "scrap/30"],
+  "research": {
+    "parent": "duo"
+  },
+  "reload": 16,
+  "recoil": 0.2,
+  "shootY": 8,
+  "shootCone": 45,
+  "range": 180,
+  "category": "turret",
+  "health": 720,
+  "size": 2,
+  "rotateSpeed": 2.2,
+  "type": "ItemTurret",
+  "coolantMultiplier": 6.25,
+  "consumes": {
+    "coolant": {
+      "amount": 0.1,
+      "booster": true,
+      "optional": true
+    }
+  }
+}
