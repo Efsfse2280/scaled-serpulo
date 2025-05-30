@@ -2,35 +2,39 @@ type: ItemTurret
 targetGround: false
 health: 2000
 size: 3
-range: 270
+range: 268
 rotateSpeed: 2
-reload: 210
+shootCone: 30
+reload: 70
 recoil: 3
-recoilTime: 150
+recoils: 2
+recoilTime: 24
 inaccuracy: 9
 velocityRnd: 0.1
+ammoCapacity: 20
 shoot: {
   type: ShootMulti
   source: {
     type: ShootAlternate
-    spread: 8
+    shotDelay: 35
     shots: 2
+    spread: 8
   }
   dest: [
     {
       shots: 4
-      shotDelay: 8
+      shotDelay: 3
     }
   ]
 }
 consumes: {
   coolant: {
-    amount: 0.5
+    amount: 0.3
   }
 }
-coolantMultiplier: 1.8
-shootSound: shootBig
-shake: 2
+coolantMultiplier: 4
+shootSound: shootSnap
+shake: 1
 drawer: {
   type: DrawTurret
   parts: [
@@ -39,6 +43,7 @@ drawer: {
       under: true
       suffix: -barrel
       x: 4
+      recoilIndex: 1
       moveY: -3
       progress: recoil
     }
@@ -47,6 +52,7 @@ drawer: {
       under: true
       suffix: -barrel
       x: -4
+      recoilIndex: 0
       moveY: -3
       progress: recoil
     }
@@ -56,36 +62,50 @@ ammoTypes: {
   lead: {
     type: FlakBulletType
     collidesGround: false
-    damage: 20
-    splashDamage: 60
-    splashDamageRadius: 20
-    speed: 9
-    lifetime: 30
-    width: 7
-    height: 24
+    ammoMultiplier: 3
+    reloadMultiplier: 1.2
+    damage: 8
+    splashDamage: 33
+    splashDamageRadius: 29
+    speed: 10
+    lifetime: 28
+    width: 6
+    height: 18
     hitEffect: flakExplosion
+    fragBullets: 4
+    fragBullet: {
+      collidesGround: false
+      damage: 7
+      speed: 9
+      drag: 0.06
+      shrinkY: 1
+      lifetime: 13
+      width: 3
+      height: 15
+    }
   }
   metaglass: {
     type: FlakBulletType
     collidesGround: false
-    damage: 17
-    splashDamage: 40
-    splashDamageRadius: 38
-    speed: 9
+    ammoMultiplier: 4
+    damage: 11
+    splashDamage: 47
+    splashDamageRadius: 37
+    speed: 10
     lifetime: 30
-    width: 8
-    height: 26
+    width: 7
+    height: 20
     hitEffect: massiveExplosion
-    fragBullets: 8
+    fragBullets: 6
     fragBullet: {
       collidesGround: false
       pierceDamageFactor: 0.4
       pierce: true
-      damage: 16
-      speed: 8
-      drag: 0.05
+      damage: 14
+      speed: 9
+      drag: 0.06
       shrinkY: 1
-      lifetime: 25
+      lifetime: 18
       width: 3
       height: 15
     }
@@ -93,31 +113,38 @@ ammoTypes: {
   phase-fabric: {
     type: FlakBulletType
     collidesGround: false
-    damage: 12
-    splashDamage: 43
-    splashDamageRadius: 35
+    ammoMultiplier: 5
+    reloadMultiplier: 0.7
+    damage: 18
+    splashDamage: 54
+    splashDamageRadius: 43
     knockback: 5
-    speed: 9
-    lifetime: 30
-    width: 6
+    speed: 8
+    lifetime: 40
+    rangeChange: 52
+    drag: 0.002
+    width: 9
     height: 24
     hitEffect: massiveExplosion
-    fragBullets: 12
+    fragBullets: 4
     fragBullet: {
       type: RailBulletType
       collidesGround: false
-      length: 45
-      damage: 20
+      pierceDamageFactor: 0.25
+      length: 56
+      damage: 26
       knockback: 1.7
-      pierceEffect: none
+      pierceEffect: pulverize
+      pointEffect: smoke
+      pointEffectSpace: 8
     }
   }
 }
 category: turret
 research: scatter
 requirements: [
-  lead/120
-  copper/100
-  graphite/40
-  titanium/60
+  lead/140
+  copper/110
+  graphite/70
+  titanium/50
 ]

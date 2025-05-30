@@ -5,14 +5,23 @@ health: 800
 range: 160
 targetGround: true
 targetAir: true
-reload: 30
+reload: 60
 recoil: 2.5
-inaccuracy: 2
+inaccuracy: 3
 shootSound: none
 shoot: {
-  type: ShootAlternate
-  shots: 2
-  spread: 5.5
+  type: ShootMulti
+  source: {
+    type: ShootAlternate
+    spread: 5.5
+    shotDelay: 20
+    }
+  dest: [
+    {
+      shots: 4
+      shotDelay: 3
+    }
+  ]
 }
 ammoPerShot: 2
 ammoTypes: {

@@ -3,20 +3,23 @@
 "health": 1600,
 "range": 174,
 "rotateSpeed": 3.8,
-"reload": 160,
+"reload": 166,
 "shoot": {
   "type": "ShootBarrel",
   "shots": 3,
-  "shotDelay": 3,
+  "shotDelay": 6,
    "barrels": [
-    8, 0, 0, 
+    6.5, -1, 0, 
     0, 0, 0, 
-    -8, 0, 0
+    -6.5, -1, 0
   ]
 },
 "consumes": {
-  "power": 10
-} ,
+  "power": 10,
+  "coolant": {
+    "amount": 0.4,
+  }
+},
 "recoil": 3,
 "shootSound": "laser",
 "shootType": {
@@ -25,8 +28,9 @@
   "width": 26,
   "damage": 92,
   "pierce": true,
-  "pierceAmount": 4
+  "amountPierce": 4
 },
+"coolantMultiplier": 3,
 "category": "turret",
 "requirements": [
   "lead/400"
