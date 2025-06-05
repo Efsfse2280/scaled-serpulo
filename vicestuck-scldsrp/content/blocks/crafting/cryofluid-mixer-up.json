@@ -42,11 +42,11 @@
   "consumes": {
     "power": 13,
     "items": {
-      "items": ["titanium/11", "lead/7"]
+      "items": ["titanium/11"]
     },
     "liquid": {
       "liquid": "water",
-      "amount": 1.8
+      "amount": 1.2
     }
   },
   "requirements": [
@@ -63,6 +63,6 @@
     "parent": "1a-g-cryofluid-mixer-ii",
     "objectives": ["desolateRift"]
   },
-  "outputLiquids": ["cryofluid/1.2", "antifreeze/0.5"],
+  "outputLiquids": ["cryofluid/0.6", "cryofluid/0.6"],
   "liquidOutputDirections": [1, 3]
 }

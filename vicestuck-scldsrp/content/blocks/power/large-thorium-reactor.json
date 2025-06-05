@@ -26,8 +26,7 @@
     "thorium/440",
     "plastanium/380",
     "surge-alloy/180",
-    "phase-fabric/140",
-    "tita-silicarb/100"
+    "phase-fabric/140"
   ],
   "category": "power",
   "research": "6a-g-thorium-reactor-ii"

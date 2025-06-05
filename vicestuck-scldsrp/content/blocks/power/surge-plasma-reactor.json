@@ -36,7 +36,7 @@
     "power": 128.0,
     "items": ["blast-compound/4", "surge-alloy/2"],
     "liquid": {
-      "liquid": "antifreeze",
+      "liquid": "cryofluid",
       "amount": 1.93
     }
   },

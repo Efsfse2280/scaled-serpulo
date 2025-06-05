@@ -1,10 +1,12 @@
 name: scldsrp
-displayName: Scaled Serpulo & more
-author: Vicestuck
+displayName: Scaled Serpulo
+author:[gold] Vicestuck (efefse)
 description:
   '''
-- This mod adds in 1/2 scaled tiers of Serpulo blocks, with extra Q-o-L blocks in certain categories.
-- thanks to original author: [#ffd37f]mq_1175[] 
+- This mod adds scaled versions of Serpulo blocks, with extra Q-o-L blocks in certain categories.
+- thanks to original authors: 
+- [#ffd37f]mq_1175[] for base mod and sprites
+- sputnuc(?) for added oil gens and added content from base mod
   '''
-version: 1.0
-minGameVersion: 146
+version: 0.7
+minGameVersion: 149

@@ -1,9 +1,0 @@
-{
-  "temperature": 0.1,
-  "viscosity": 0.5,
-  "heatCapacity": 1.5,
-  "flammability": 0,
-  "effect": "freezing",
-  "color": "8a73c6",
-  "lightColor": "8a73c666"
-}

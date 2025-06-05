@@ -12,7 +12,7 @@
       "optional": true
     }
   },
-  "speedBoost": 4,
+  "speedBoost": 2,
   "hasBoost": false,
   "speedBoostPhase": 0,
   "requirements": [

@@ -9,5 +9,5 @@
     "objectives": ["core-nucleus"]
   },
   "category": "effect",
-  "requirements": ["thorium/320", "surge-alloy/160", "plastanium/240"]
+  "requirements": ["thorium/400", "surge-alloy/240", "plastanium/320"]
 }
