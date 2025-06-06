@@ -19,9 +19,9 @@
   "itemCapacity": 40,
   "itemDuration": 1440,
   "consumes": {
-    "itemRadioactive": {
-      [
-        "amount": 4
+    "items": {
+      "items": [
+        "phase-fabric/1"
       ]
     },
     "liquids": {
@@ -38,9 +38,6 @@
     "surge-alloy/170",
     "phase-fabric/80"
   ],
-  "itemDurationMultipliers": {
-    "phase-fabric": 12
-  },
   "category": "power",
   "research": {
     "parent": "rtg-generator",
