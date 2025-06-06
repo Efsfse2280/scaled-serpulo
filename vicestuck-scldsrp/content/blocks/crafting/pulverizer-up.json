@@ -37,11 +37,11 @@
   "consumes": {
     "power": 7.6,
     "items": {
-      "items": ["scrap/20"]
+      "items": ["scrap/25"]
     },
     "liquid": {
       "liquid": "water",
-      "amount": 0.66667
+      "amount": 0.8
     }
   },
   "requirements": ["titanium/170", "lead/210", "silicon/180", "plastanium/60"],

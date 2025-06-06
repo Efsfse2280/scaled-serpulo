@@ -29,7 +29,7 @@
   "consumes": {
     "power": 13,
     "items": {
-      "items": ["graphite/10", "sand/20", "blast-compound/3"]
+      "items": ["coal/10", "sand/20", "blast-compound/3"]
     }
   },
   "requirements": [

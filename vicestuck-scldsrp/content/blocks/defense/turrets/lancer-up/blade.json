@@ -1,40 +1,33 @@
-"type": "PowerTurret",
-"size": 3,
-"health": 1600,
-"range": 174,
-"rotateSpeed": 3.8,
-"reload": 166,
-"shoot": {
-  "type": "ShootBarrel",
-  "shots": 3,
-  "shotDelay": 6,
-   "barrels": [
-    6.5, -1, 0, 
-    0, 0, 0, 
-    -6.5, -1, 0
-  ]
-},
-"consumes": {
-  "power": 10,
-  "coolant": {
-    "amount": 0.4,
-  }
-},
-"recoil": 3,
-"shootSound": "laser",
-"shootType": {
-  "type": "LaserBulletType",
-  "length": 154,
-  "width": 26,
-  "damage": 92,
-  "pierce": true,
-  "amountPierce": 4
-},
-"coolantMultiplier": 3,
-"category": "turret",
-"requirements": [
-  "lead/400"
-  "graphite/320"
-  "silicon/200"
-  "plastanium/120"
-]
+{
+  "type": "PowerTurret",
+  "size": 3,
+  "health": 1600,
+  "range": 174,
+  "rotateSpeed": 3.8,
+  "reload": 166,
+  "shoot": {
+    "type": "ShootBarrel",
+    "shots": 3,
+    "shotDelay": 6,
+    "barrels": [6.5, -1, 0, 0, 0, 0, -6.5, -1, 0]
+  },
+  "consumes": {
+    "power": 10,
+    "coolant": {
+      "amount": 0.4
+    }
+  },
+  "recoil": 3,
+  "shootSound": "laser",
+  "shootType": {
+    "type": "LaserBulletType",
+    "length": 154,
+    "width": 26,
+    "damage": 92,
+    "pierce": true,
+    "pierceCap": 4
+  },
+  "coolantMultiplier": 3,
+  "category": "turret",
+  "requirements": ["lead/400", "graphite/320", "silicon/200", "plastanium/120"]
+}

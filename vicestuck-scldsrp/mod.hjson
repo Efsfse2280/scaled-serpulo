@@ -8,6 +8,6 @@ description:
 - [#ffd37f]mq_1175[] for base mod and sprites
 - sputnuc(?) for added oil gens and added content from base mod
   '''
-version: 0.8
+version: 1.0
 minGameVersion: 149
 hidden: false

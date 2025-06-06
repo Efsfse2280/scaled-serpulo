@@ -11,7 +11,7 @@ recoils: 2
 recoilTime: 24
 inaccuracy: 9
 velocityRnd: 0.1
-ammoCapacity: 20
+maxAmmo: 20
 shoot: {
   type: ShootMulti
   source: {
@@ -143,8 +143,8 @@ ammoTypes: {
 category: turret
 research: scatter
 requirements: [
-  lead/140
-  copper/110
-  graphite/70
-  titanium/50
+  lead/170
+  copper/130
+  graphite/90
+  titanium/60
 ]

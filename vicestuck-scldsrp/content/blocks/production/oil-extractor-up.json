@@ -1,6 +1,6 @@
 {
   "type": "AttributeCrafter",
-  "scaledHealth": 75,
+  "scaledHealth": 80,
   "outputLiquid": "oil/1",
   "baseEfficiency": 0.12,
   "drawer": {
@@ -29,11 +29,10 @@
   "requirements": [
     "silicon/480",
     "titanium/540",
-    "lead/600",
+    "metaglass/600",
     "thorium/400",
     "plastanium/360",
-    "surge-alloy/320",
-    "phase-fabric/180"
+    "surge-alloy/120"
   ],
   "hasPower": true,
   "hasLiquids": true,
@@ -42,7 +41,7 @@
   "boostScale": 0.096,
   "maxBoost": 3.8,
   "craftTime": 92,
-  "liquidCapacity": 70,
+  "liquidCapacity": 200,
   "attribute": "oil",
   "consumes": {
     "power": 27.9,
@@ -53,11 +52,11 @@
     },
     "liquids": {
       "liquids": [
-        "water/0.73",
-        "cryofluid/0.27"
+        "water/0.713",
+        "cryofluid/0.16"
       ]
     }
   },
   "category": "production",
-  "research": "7a-c-oil-extractor-ii"
+  "research": "oil-extractor"
 }

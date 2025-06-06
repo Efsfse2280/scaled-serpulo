@@ -20,7 +20,9 @@
   "itemDuration": 1440,
   "consumes": {
     "itemRadioactive": {
-      "amount": 4
+      [
+        "amount": 4
+      ]
     },
     "liquids": {
       "liquids": [

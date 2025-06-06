@@ -48,7 +48,7 @@
   },
   "category": "power",
   "research": {
-    "parent": "combustion-generator-ii",
+    "parent": "oil-combustion-generator-ii",
     "objectives": ["induction-generator"]
   },
   "requirements": [

@@ -2,7 +2,7 @@ type: ItemTurret
 liquidCapacity: 20
 size: 2
 health: 800
-range: 160
+range: 208
 targetGround: true
 targetAir: true
 reload: 60
@@ -28,7 +28,7 @@ ammoTypes: {
   lead: {
     damage: 14
     speed: 4
-    lifetime: 40
+    lifetime: 52
     reloadMultiplier: 0.8
     height: 15
     width: 10
@@ -52,7 +52,7 @@ ammoTypes: {
   scrap: {
     damage: 3
     speed: 5
-    lifetime: 40
+    lifetime: 50
     reloadMultiplier: 1.35
     ammoMultiplier: 3
     splashDamage: 29
@@ -83,7 +83,7 @@ ammoTypes: {
     splashDamage: 16
     splashDamageRadius: 15
     speed: 4
-    lifetime: 40
+    lifetime: 52
     reloadMultiplier: 0.85
     ammoMultiplier: 7
     height: 12
@@ -111,7 +111,7 @@ ammoTypes: {
   silicon: {
     damage: 19
     speed: 4
-    lifetime: 40
+    lifetime: 52
     reloadMultiplier: 1.8
     ammoMultiplier: 6
     height: 12
@@ -140,7 +140,7 @@ ammoTypes: {
     pierce: true
     pierceCap: 2
     speed: 4
-    lifetime: 40
+    lifetime: 52
     ammoMultiplier: 3
     height: 22
     width: 13
@@ -163,9 +163,9 @@ ammoTypes: {
   }
 }
 requirements: [
-  copper/100
-  graphite/40
-  titanium/60
+  copper/220
+  graphite/140
+  titanium/90
 ]
 maxAmmo: 20
 category: turret
