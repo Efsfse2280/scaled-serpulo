@@ -1,7 +1,7 @@
 {
   "type": "GenericCrafter",
   "size": 4,
-  "scaledHealth": 65,
+  "scaledHealth": 60,
   "drawer": {
     "type": "DrawMulti",
     "drawers": [
@@ -11,7 +11,7 @@
       {
         "type": "DrawRegion",
         "suffix": "-spinner",
-        "rotateSpeed": 4,
+        "rotateSpeed": 3.6,
         "spinSprite": true
       },
       {
@@ -23,28 +23,28 @@
   "craftEffect": "blastsmoke",
   "hasPower": true,
   "hasItems": true,
-  "liquidCapacity": 84,
-  "itemCapacity": 64,
-  "craftTime": 256,
+  "liquidCapacity": 80,
+  "itemCapacity": 70,
+  "craftTime": 282,
   "consumes": {
-    "power": 6.3,
+    "power": 7,
     "items": {
-      "items": ["pyratite/15", "graphite/32"]
+      "items": ["pyratite/12", "spore-pod/16"]
     },
     "liquid": {
       "liquid": "oil",
-      "amount": 0.65
+      "amount": 0.4
     }
   },
   "requirements": [
-    "copper/600",
-    "titanium/440",
+    "copper/320",
+    "titanium/200",
     "silicon/320",
-    "metaglass/300",
-    "plastanium/140",
-    "phase-fabric/40"
+    "metaglass/260",
+    "plastanium/80",
+    "thorium/40"
   ],
   "category": "crafting",
-  "research": "1a-i-blast-mixer-ii",
-  "outputItem": "blast-compound/21"
+  "research": "blast-mixer",
+  "outputItem": "blast-compound/14"
 }

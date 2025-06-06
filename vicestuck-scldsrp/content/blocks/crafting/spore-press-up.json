@@ -1,7 +1,7 @@
 {
   "type": "GenericCrafter",
   "size": 4,
-  "scaledHealth": 65,
+  "scaledHealth": 60,
   "drawer": {
     "type": "DrawMulti",
     "drawers": [
@@ -25,24 +25,24 @@
   "hasPower": true,
   "hasItems": true,
   "hasLiquids": true,
-  "liquidCapacity": 240,
-  "itemCapacity": 34,
-  "craftTime": 62,
+  "liquidCapacity": 160,
+  "itemCapacity": 60,
+  "craftTime": 282,
   "outputsLiquid": true,
   "consumes": {
     "power": 10.8,
     "items": {
-      "items": ["spore-pod/17"]
+      "items": ["spore-pod/30"]
     }
   },
   "requirements": [
-    "lead/500",
-    "titanium/420",
-    "metaglass/320",
-    "plastanium/200",
-    "surge-alloy/60"
+    "lead/400",
+    "titanium/320",
+    "metaglass/360",
+    "plastanium/130",
+    "thorium/80"
   ],
   "category": "crafting",
-  "research": "1a-l-spore-press-ii",
-  "outputLiquid": "oil/2"
+  "research": "spore-press",
+  "outputLiquid": "oil/0.85"
 }

@@ -1,7 +1,7 @@
 {
   "type": "AttributeCrafter",
   "size": 4,
-  "scaledHealth": 65,
+  "scaledHealth": 70,
   "boostScale": 0.15,
   "maxBoost": 1.5,
   "drawer": {
@@ -24,12 +24,12 @@
   "hasPower": true,
   "hasItems": true,
   "itemCapacity": 64,
-  "craftTime": 96,
+  "craftTime": 174,
   "craftEffect": "smeltsmoke",
   "consumes": {
-    "power": 12,
+    "power": 13,
     "items": {
-      "items": ["graphite/8", "sand/16", "blast-compound/2"]
+      "items": ["graphite/10", "sand/20", "blast-compound/3"]
     }
   },
   "requirements": [
@@ -41,5 +41,5 @@
   ],
   "category": "crafting",
   "research": "silicon-crucible",
-  "outputItem": "silicon/22"
+  "outputItem": "silicon/30"
 }

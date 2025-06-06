@@ -1,22 +1,22 @@
 {
   "type": "CoreBlock",
-  "scaledHealth": 370,
-  "armor": 8,
+  "scaledHealth": 390,
+  "armor": 6,
   "size": 6,
-  "itemCapacity": 21600,
+  "itemCapacity": 21000,
   "unitCapModifier": 36,
-  "researchCostMultiplier": 0.075,
+  "researchCostMultiplier": 0.08,
   "thrusterLength": 7,
   "unitType": "a-upsilon",
   "requirements": [
     "copper/16000",
     "lead/16000",
-    "titanium/13200",
-    "thorium/12000",
-    "silicon/16000",
-    "plastanium/14000",
-    "surge-alloy/10000",
-    "phase-fabric/10000"
+    "titanium/14000",
+    "thorium/10000",
+    "silicon/15000",
+    "plastanium/12000",
+    "surge-alloy/8000",
+    "phase-fabric/6000"
   ],
   "category": "effect",
   "research": {

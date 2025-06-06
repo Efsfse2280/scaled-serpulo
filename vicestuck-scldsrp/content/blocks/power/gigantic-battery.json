@@ -1,8 +1,8 @@
 {
   "type": "battery",
   "size": 5,
-  "scaledHealth": 110,
-  "armor": 2,
+  "scaledHealth": 100,
+  "armor": 4,
   "consumes": {
     "powerBuffered": 400000
   },

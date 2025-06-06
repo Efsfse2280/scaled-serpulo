@@ -1,24 +1,23 @@
 {
   "type": "ThermalGenerator",
   "size": 4,
-  "scaledHealth": 75,
-  "powerProduction": 4,
+  "scaledHealth": 80,
+  "powerProduction": 3.6,
   "generateEffect": "redgeneratespark",
   "floating": true,
   "hasLiquids": true,
   "liquidCapacity": 120,
   "consumes": {
     "liquids": [
-      "water/0.12"
+      "water/0.2"
     ]
   },
   "requirements": [
-    "metaglass/500",
-    "silicon/360",
-    "thorium/360",
-    "plastanium/200",
-    "surge-alloy/160"
+    "metaglass/280",
+    "silicon/320",
+    "thorium/240",
+    "plastanium/110"
   ],
   "category": "power",
-  "research": "6a-d-thermal-generator-ii"
+  "research": "thermal-generator"
 }

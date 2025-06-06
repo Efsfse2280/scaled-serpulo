@@ -1,25 +1,27 @@
 {
   "type": "ForceProjector",
-  "scaledHealth": 95,
-  "shieldHealth": 15000,
+  "scaledHealth": 90,
+  "shieldHealth": 5400,
   "size": 5,
   "sides": 12,
-  "liquidCapacity": 40,
+  "liquidCapacity": 80,
   "shieldRotation": 45,
   "itemCapacity": 40,
   "hasPower": true,
   "hasItems": true,
   "canOverdrive": true,
-  "phaseUseTime": 310,
+  "phaseUseTime": 192,
+  "phaseRadiusBoost": 56,
+  "phaseShieldBoost": 2600,
   "solid": true,
   "radius": 296,
-  "cooldownNormal": 3.5,
-  "cooldownLiquid": 2,
-  "cooldownBrokenBase": 1.75,
+  "cooldownNormal": 3.6,
+  "cooldownLiquid": 2.4,
+  "cooldownBrokenBase": 1.8,
   "consumes": {
-    "power": 35,
+    "power": 32,
     "items": {
-      "items": ["phase-fabric/2", "surge-alloy/1", "silicon/4"],
+      "items": ["phase-fabric/1", "silicon/3"],
       "optional": false
     }
   },
@@ -33,7 +35,7 @@
   ],
   "category": "effect",
   "research": {
-    "parent": "3a-c-force-projector-ii",
+    "parent": "force-projector",
     "objectives": [
       {
         "type": "SectorComplete",

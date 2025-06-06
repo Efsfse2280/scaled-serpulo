@@ -1,7 +1,7 @@
 {
   "type": "Separator",
   "size": 4,
-  "scaledHealth": 75,
+  "scaledHealth": 80,
   "drawer": {
     "type": "DrawMulti",
     "drawers": [
@@ -33,7 +33,7 @@
   "hasPower": true,
   "hasLiquids": true,
   "hasItems": true,
-  "itemCapacity": 30,
+  "itemCapacity": 100,
   "liquidCapacity": 50,
   "craftTime": 6,
   "consumes": {
@@ -47,10 +47,11 @@
   "category": "crafting",
   "research": "disassembler",
   "requirements": [
-    "titanium/280",
-    "silicon/340",
-    "plastanium/200",
-    "thorium/220",
-    "surge-alloy/70"
+    "titanium/300",
+    "silicon/360",
+    "plastanium/230",
+    "thorium/270",
+    "surge-alloy/110",
+    "phase-fabric/30"
   ]
 }

@@ -3,16 +3,16 @@
   "scaledHealth": 110,
   "size": 3,
   "buildCostMultiplier": 2,
-  "reload": 134,
+  "reload": 140,
   "range": 178,
-  "healPercent": 11,
-  "itemCapacity": 12,
+  "healPercent": 10,
+  "itemCapacity": 20,
   "hasPower": true,
-  "phaseBoost": 9,
-  "useTime": 630,
+  "phaseBoost": 6,
+  "useTime": 432,
   "phaseRangeBoost": 72,
   "consumes": {
-    "power": 11.3,
+    "power": 13,
     "items": {
       "items": ["silicon/1", "phase-fabric/1"],
       "booster": true,
@@ -20,12 +20,12 @@
     }
   },
   "requirements": [
-    "silicon/320",
-    "lead/400",
-    "graphite/280",
-    "plastanium/180",
+    "silicon/400",
+    "lead/440",
+    "graphite/360",
+    "plastanium/240",
     "titanium/300",
-    "surge-alloy/100"
+    "surge-alloy/160"
   ],
   "category": "effect",
   "research": "mend-projector"

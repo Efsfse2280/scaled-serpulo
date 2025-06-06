@@ -9,7 +9,7 @@
   "category": "power",
   "requirements": [
     "lead/240",
-    "titanium/200",
+    "titanium/180",
     "thorium/120",
     "silicon/200"
   ]

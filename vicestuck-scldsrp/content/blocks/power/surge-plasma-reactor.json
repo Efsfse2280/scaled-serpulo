@@ -48,7 +48,7 @@
         "type": "SectorComplete",
         "preset": "planetaryTerminal"
       },
-      "6a-g-thorium-reactor-iii"
+      "thorium-reactor-up"
     ]
   },
   "requirements": [

@@ -9,25 +9,24 @@
   "explosionRadius": 24,
   "explosionDamage": 6300,
   "hasLiquids": true,
-  "powerProduction": 72,
-  "itemDuration": 1420,
+  "powerProduction": 74,
+  "itemDuration": 1488,
   "heating": 0.02,
   "consumes": {
-    "items": ["thorium/11", "phase-fabric/3"],
+    "items": ["thorium/10", "phase-fabric/1"],
     "liquid": {
-      "liquid": "antifreeze",
-      "amount": 0.12
+      "liquid": "cryofluid",
+      "amount": 0.2
     }
   },
   "requirements": [
-    "lead/600",
-    "silicon/400",
-    "metaglass/560",
-    "thorium/440",
+    "lead/800",
+    "silicon/700",
+    "metaglass/660",
+    "thorium/520",
     "plastanium/380",
-    "surge-alloy/180",
-    "phase-fabric/140"
+    "surge-alloy/120"
   ],
   "category": "power",
-  "research": "6a-g-thorium-reactor-ii"
+  "research": "thorium-reactor"
 }

@@ -27,25 +27,25 @@
   "hasPower": true,
   "hasLiquids": true,
   "hasItems": true,
-  "itemCapacity": 40,
-  "liquidCapacity": 36,
-  "craftTime": 88,
+  "itemCapacity": 60,
+  "liquidCapacity": 80,
+  "craftTime": 240,
   "craftEffect": "pulverize",
   "updateEffect": "pulverizeSmall",
   "ambientSound": "grinding",
   "ambientSoundVolume": 0.04,
   "consumes": {
-    "power": 6,
+    "power": 7.6,
     "items": {
-      "items": ["scrap/11"]
+      "items": ["scrap/20"]
     },
     "liquid": {
       "liquid": "water",
-      "amount": 0.38
+      "amount": 0.66667
     }
   },
-  "requirements": ["titanium/180", "lead/160", "silicon/140", "plastanium/70"],
+  "requirements": ["titanium/170", "lead/210", "silicon/180", "plastanium/60"],
   "category": "crafting",
-  "research": "1a-m-pulverizer-ii",
-  "outputItem": "sand/16"
+  "research": "pulverizer",
+  "outputItem": "sand/30"
 }

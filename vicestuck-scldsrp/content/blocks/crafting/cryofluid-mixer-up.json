@@ -1,7 +1,7 @@
 {
   "type": "GenericCrafter",
   "size": 4,
-  "scaledHealth": 85,
+  "scaledHealth": 70,
   "drawer": {
     "type": "DrawMulti",
     "drawers": [
@@ -35,14 +35,14 @@
   "hasItems": true,
   "rotateDraw": false,
   "rotate": true,
-  "itemCapacity": 30,
-  "liquidCapacity": 216,
-  "craftTime": 236,
+  "itemCapacity": 60,
+  "liquidCapacity": 280,
+  "craftTime": 702,
   "outputsLiquid": true,
   "consumes": {
-    "power": 13,
+    "power": 11.4,
     "items": {
-      "items": ["titanium/11"]
+      "items": ["titanium/30"]
     },
     "liquid": {
       "liquid": "water",
@@ -50,18 +50,16 @@
     }
   },
   "requirements": [
-    "lead/400",
-    "titanium/480",
-    "silicon/540",
-    "plastanium/360",
-    "metaglass/400",
-    "surge-alloy/120",
-    "tita-silicarb/80"
+    "lead/280",
+    "titanium/180",
+    "silicon/240",
+    "plastanium/120",
+    "metaglass/200",
   ],
   "category": "crafting",
   "research": {
-    "parent": "1a-g-cryofluid-mixer-ii",
-    "objectives": ["desolateRift"]
+    "parent": "cryofluid-mixer",
+    "objectives": ["tarFields"]
   },
   "outputLiquids": ["cryofluid/0.6", "cryofluid/0.6"],
   "liquidOutputDirections": [1, 3]

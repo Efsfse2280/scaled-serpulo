@@ -1,7 +1,7 @@
 {
   "type": "GenericCrafter",
   "size": 4,
-  "scaledHealth": 85,
+  "scaledHealth": 80,
   "drawer": {
     "type": "DrawMulti",
     "drawers": [
@@ -29,9 +29,9 @@
   "craftEffect": "formsmoke",
   "updateEffect": "plasticburn",
   "consumes": {
-    "power": 31,
+    "power": 27,
     "items": {
-      "items": ["titanium/21", "spore-pod/6"]
+      "items": ["titanium/20", "spore-pod/5"]
     },
     "liquid": {
       "liquid": "oil",
@@ -48,6 +48,6 @@
     "tita-silicarb/120"
   ],
   "category": "crafting",
-  "research": "1a-d-plastanium-compressor-ii",
-  "outputItem": "plastanium/20"
+  "research": "plastanium-compressor",
+  "outputItem": "plastanium/16"
 }

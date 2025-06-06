@@ -1,32 +1,32 @@
 {
   "type": "GenericCrafter",
   "size": 4,
-  "scaledHealth": 50,
+  "scaledHealth": 70,
   "hasPower": true,
   "hasItems": true,
-  "itemCapacity": 30,
+  "itemCapacity": 160,
   "liquidCapacity": 36,
-  "craftTime": 64,
+  "craftTime": 294,
   "craftEffect": "pulverize",
   "updateEffect": "pulverizeSmall",
   "consumes": {
-    "power": 6,
+    "power": 9,
     "items": {
-      "items": ["coal/15"]
+      "items": ["coal/20"]
     },
     "liquid": {
       "liquid": "oil",
-      "amount": 0.2
+      "amount": 0.1
     }
   },
   "requirements": [
-    "lead/280",
-    "graphite/160",
-    "titanium/240",
-    "silicon/120",
-    "plastanium/140"
+    "lead/320",
+    "graphite/260",
+    "titanium/220",
+    "silicon/240",
+    "plastanium/100"
   ],
   "category": "crafting",
   "research": "multi-press",
-  "outputItem": "graphite/12"
+  "outputItem": "graphite/40"
 }

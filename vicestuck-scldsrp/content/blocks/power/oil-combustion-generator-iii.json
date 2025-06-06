@@ -48,8 +48,8 @@
   },
   "category": "power",
   "research": {
-    "parent": "6a-i-oil-combustion-generator-ii",
-    "objectives": ["6a-c-burner-generator"]
+    "parent": "combustion-generator-ii",
+    "objectives": ["induction-generator"]
   },
   "requirements": [
     "surge-alloy/20",

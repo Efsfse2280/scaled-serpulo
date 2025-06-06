@@ -24,9 +24,9 @@
     "itemFlammable": {}
   },
   "category": "power",
-  "research": "steam-generator",
+  "research": "combustion-generator",
   "itemDurationMultipliers": {
-    "spore-pod": 2.3,
+    "spore-pod": 2,
     "pyratite": 4
   },
   "requirements": [

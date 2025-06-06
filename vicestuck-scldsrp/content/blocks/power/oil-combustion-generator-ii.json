@@ -47,6 +47,6 @@
     }
   },
   "category": "power",
-  "research": "6a-i-oil-combustion-generator-i",
+  "research": "combustion-generator-i",
   "requirements": ["lead/170", "silicon/140", "plastanium/90", "metaglass/190"]
 }

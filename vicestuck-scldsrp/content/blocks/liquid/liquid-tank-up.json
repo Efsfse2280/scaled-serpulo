@@ -2,8 +2,8 @@
   "type": "LiquidRouter",
   "size": 4,
   "liquidCapacity": 4000,
-  "scaledHealth": 115,
-  "requirements": ["titanium/200", "metaglass/240", "thorium/160", "silicon/80"],
+  "scaledHealth": 110,
+  "requirements": ["titanium/240", "metaglass/240", "thorium/160", "plastanium/100"],
   "category": "liquid",
   "research": "liquid-tank"
 }

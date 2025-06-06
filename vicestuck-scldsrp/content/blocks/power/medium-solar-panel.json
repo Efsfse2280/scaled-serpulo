@@ -3,7 +3,8 @@
   "size": 2,
   "hasPower": true,
   "powerProduction": 0.5,
-  "requirements": ["lead/30", "silicon/40", "titanium/20"],
+  "requirements": ["lead/40", "silicon/32", "titanium/10"],
   "category": "power",
-  "research": "solar-panel"
+  "research": "solar-panel",
+  "floating": true
 }

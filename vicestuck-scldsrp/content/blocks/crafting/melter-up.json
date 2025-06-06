@@ -1,7 +1,7 @@
 {
   "type": "GenericCrafter",
   "size": 3,
-  "scaledHealth": 65,
+  "scaledHealth": 60,
   "drawer": {
     "type": "DrawMulti",
     "drawers": [
@@ -21,23 +21,23 @@
   "hasPower": true,
   "hasItems": true,
   "liquidCapacity": 180,
-  "itemCapacity": 32,
-  "craftTime": 98,
+  "itemCapacity": 80,
+  "craftTime": 156,
   "outputsLiquid": true,
   "consumes": {
-    "power": 16,
+    "power": 13,
     "items": {
-      "items": ["pyratite/6", "scrap/16"]
+      "items": ["pyratite/3", "scrap/40"]
     }
   },
   "requirements": [
-    "lead/220",
-    "titanium/180",
-    "silicon/140",
-    "plastanium/100",
-    "surge-alloy/20"
+    "lead/260",
+    "copper/260",
+    "titanium/200",
+    "silicon/180",
+    "plastanium/40"
   ],
   "category": "crafting",
-  "research": "1a-j-melter-ii",
-  "outputLiquid": "slag/1.5"
+  "research": "melter",
+  "outputLiquid": "slag/0.75"
 }

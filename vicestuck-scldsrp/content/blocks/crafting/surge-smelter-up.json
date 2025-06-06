@@ -22,41 +22,40 @@
   },
   "hasPower": true,
   "hasItems": true,
-  "itemCapacity": 64,
+  "itemCapacity": 100,
   "liquidCapacity": 90,
-  "craftTime": 448,
+  "craftTime": 714,
   "craftEffect": "smeltsmoke",
   "updateEffect": "none",
   "consumes": {
-    "power": 40,
+    "power": 39,
     "items": {
       "items": [
-        "silicon/16",
-        "titanium/16",
-        "lead/24",
-        "copper/32",
-        "blast-compound/8"
+        "silicon/40",
+        "titanium/25",
+        "lead/50",
+        "copper/35",
+        "blast-compound/7"
       ]
     },
     "liquid": {
       "liquid": "cryofluid",
-      "amount": 0.5
+      "amount": 0.4
     }
   },
   "requirements": [
-    "lead/720",
-    "silicon/500",
-    "titanium/560",
-    "plastanium/320",
-    "thorium/400",
-    "phase-fabric/200",
-    "surge-alloy/240",
-    "tita-silicarb/200"
+    "lead/540",
+    "silicon/400",
+    "titanium/360",
+    "plastanium/240",
+    "thorium/200",
+    "phase-fabric/160",
+    "surge-alloy/140"
   ],
   "category": "crafting",
   "research": {
-    "parent": "1a-f-surge-smelter-ii",
+    "parent": "surge-smelter",
     "objectives": ["desolateRift"]
   },
-  "outputItem": "surge-alloy/15"
+  "outputItem": "surge-alloy/20"
 }

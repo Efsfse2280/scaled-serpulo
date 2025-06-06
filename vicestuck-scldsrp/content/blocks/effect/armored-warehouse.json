@@ -2,12 +2,13 @@
   "type": "StorageBlock",
   "size": 4,
   "researchCostMultiplier": 0.5,
-  "scaledHealth": 115,
+  "scaledHealth": 120,
+  "armor": 4,
   "itemCapacity": 2400,
   "research": {
     "parent": "vault",
     "objectives": ["core-nucleus"]
   },
   "category": "effect",
-  "requirements": ["thorium/400", "surge-alloy/240", "plastanium/320"]
+  "requirements": ["thorium/400", "surge-alloy/240", "plastanium/320","phase-fabric/80"]
 }

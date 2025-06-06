@@ -2,11 +2,11 @@
   "type": "LightBlock",
   "size": 3,
   "scaledHealth": 60,
-  "brightness": 0.75,
-  "radius": 450,
+  "brightness": 0.72,
+  "radius": 384,
   "buildVisibility": "lightingOnly",
-  "consumes": { "power": 0.5 },
-  "research": "3a-f-illuminator-ii",
+  "consumes": { "power": 0.8 },
+  "research": "illuminator",
   "category": "effect",
-  "requirements": ["silicon/80", "thorium/32", "plastanium/40"]
+  "requirements": ["silicon/120", "thorium/40", "plastanium/70"]
 }

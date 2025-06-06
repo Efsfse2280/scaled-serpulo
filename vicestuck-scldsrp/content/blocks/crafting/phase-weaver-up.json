@@ -1,7 +1,7 @@
 {
   "type": "GenericCrafter",
   "size": 4,
-  "scaledHealth": 110,
+  "scaledHealth": 100,
   "drawer": {
     "type": "DrawMulti",
     "drawers": [
@@ -19,34 +19,33 @@
   },
   "hasPower": true,
   "hasItems": true,
-  "itemCapacity": 80,
+  "itemCapacity": 200,
   "liquidCapacity": 96,
-  "craftTime": 240,
+  "craftTime": 384,
   "craftEffect": "smeltsmoke",
   "updateEffect": "none",
   "ambientSound": "techloop",
   "ambientSoundVolume": 0.04,
   "consumes": {
-    "power": 50,
+    "power": 53,
     "items": {
-      "items": ["sand/32", "thorium/24", "silicon/12"]
+      "items": ["sand/100", "thorium/40"]
     },
     "liquid": {
       "liquid": "cryofluid",
-      "amount": 0.4
+      "amount": 0.3
     }
   },
   "requirements": [
     "silicon/600",
-    "titanium/560",
+    "titanium/480",
     "lead/600",
-    "plastanium/480",
-    "thorium/480",
-    "phase-fabric/320",
-    "surge-alloy/280",
-    "tita-silicarb/160"
+    "plastanium/320",
+    "thorium/320",
+    "phase-fabric/120",
+    "surge-alloy/200"
   ],
   "category": "crafting",
-  "research": "1a-e-phase-weaver-ii",
+  "research": "phase-weaver",
   "outputItem": "phase-fabric/12"
 }

@@ -3,12 +3,11 @@
   "size": 4,
   "scaledHealth": 75,
   "hasPower": true,
-  "powerProduction": 3.6,
+  "powerProduction": 3,
   "requirements": [
-    "lead/160",
-    "silicon/200",
-    "phase-fabric/120",
-    "tita-silicarb/60"
+    "lead/120",
+    "silicon/140",
+    "phase-fabric/60"
   ],
   "category": "power",
   "research": "solar-panel-large"
