@@ -5,14 +5,16 @@
   "liquidCapacity": 320,
   "hasLiquids": true,
   "craftTime": 840,
-  "displayEfficiency": false,
+  "baseEfficiency": 0.14,
+  "boostScale": 0.5,
+  "maxBoost": 4,
   "consumes": {
-    "power": 13,
+    "power": 17,
     "items": {
       "items": ["coal/1"]
     }
   },
-  "attribute": "0",
+  "attribute": "water",
   "drawer": {
     "type": "DrawMulti",
     "drawers": [
@@ -44,12 +46,12 @@
   },
   "requirements": [
     "lead/200",
-    "plastanium/160",
-    "silicon/280",
-    "metaglass/240",
-    "surge-alloy/80"
+    "plastanium/100",
+    "silicon/180",
+    "metaglass/140",
+    "thorium/80"
   ],
   "category": "production",
-  "outputLiquid": "water/0.96",
-  "research": "7a-a-water-extractor-ii"
+  "outputLiquid": "water/0.64",
+  "research": "water-extractor"
 }

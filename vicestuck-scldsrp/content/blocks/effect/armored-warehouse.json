@@ -10,5 +10,5 @@
     "objectives": ["core-nucleus"]
   },
   "category": "effect",
-  "requirements": ["thorium/400", "surge-alloy/240", "plastanium/320","phase-fabric/80"]
+  "requirements": ["thorium/430", "surge-alloy/240", "plastanium/320","phase-fabric/80"]
 }

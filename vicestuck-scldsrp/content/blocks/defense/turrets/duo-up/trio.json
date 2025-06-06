@@ -17,8 +17,6 @@
       "frontColor": "777777",
       "backColor": "6b6b6b",
       "buildingDamageMultiplier": 0.8,
-      "status": "rusted",
-      "statusDuration": 180,
       "speed": 6,
       "lifetime": 30,
       "inaccuracy": 7

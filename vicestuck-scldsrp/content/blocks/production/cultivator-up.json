@@ -2,19 +2,19 @@
   "type": "AttributeCrafter",
   "category": "production",
   "requirements": [
-    "lead/280",
-    "plastanium/160",
-    "silicon/240",
-    "surge-alloy/60",
-    "phase-fabric/20"
+    "lead/210",
+    "plastanium/100",
+    "silicon/140",
+    "metaglass/160",
+    "thorium/70"
   ],
-  "outputItem": "spore-pod/16",
-  "craftTime": 217,
+  "outputItem": "spore-pod/20",
+  "craftTime": 378,
   "size": 4,
   "scaledHealth": 80,
-  "liquidCapacity": 100,
+  "liquidCapacity": 120,
   "hasLiquids": true,
-  "itemCapacity": 30,
+  "itemCapacity": 40,
   "hasPower": true,
   "hasItems": true,
   "craftEffect": "none",
@@ -22,11 +22,11 @@
   "maxBoost": 4,
   "envRequired": 8,
   "consumes": {
-    "power": 13.6,
-    "liquid": "water/0.82",
+    "power": 10.8,
+    "liquid": "water/1.5",
     "items": {
       "items": [
-        "sand/2"
+        "sand/1"
       ]
     }
   },
@@ -50,5 +50,5 @@
       }
     ]
   },
-  "research": "7a-b-cultivator-ii"
+  "research": "cultivator"
 }

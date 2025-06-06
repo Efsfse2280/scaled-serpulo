@@ -17,9 +17,9 @@
   },
   "requirements": [
     "plastanium/320",
-    "surge-alloy/200",
+    "surge-alloy/210",
     "silicon/400",
-    "phase-fabric/180",
+    "phase-fabric/160",
     "thorium/240"
   ],
   "category": "distribution",
