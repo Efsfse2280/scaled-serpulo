@@ -28,7 +28,7 @@
   "craftEffect": "smeltsmoke",
   "updateEffect": "none",
   "consumes": {
-    "power": 39,
+    "power": 32,
     "items": {
       "items": [
         "silicon/40",

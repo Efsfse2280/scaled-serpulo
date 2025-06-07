@@ -8,9 +8,12 @@
   "hasLiquids": true,
   "liquidCapacity": 120,
   "consumes": {
-    "liquids": [
-      "water/0.2"
-    ]
+    "liquids": {
+      "liquids": [
+        "water/0.2"
+      ],
+      "optional": false
+    }
   },
   "requirements": [
     "metaglass/280",

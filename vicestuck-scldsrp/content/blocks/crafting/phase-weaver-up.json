@@ -27,7 +27,7 @@
   "ambientSound": "techloop",
   "ambientSoundVolume": 0.04,
   "consumes": {
-    "power": 53,
+    "power": 26,
     "items": {
       "items": ["sand/100", "thorium/40"]
     },

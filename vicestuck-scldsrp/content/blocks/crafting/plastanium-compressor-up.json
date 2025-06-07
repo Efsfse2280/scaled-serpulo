@@ -29,7 +29,7 @@
   "craftEffect": "formsmoke",
   "updateEffect": "plasticburn",
   "consumes": {
-    "power": 27,
+    "power": 21,
     "items": {
       "items": ["titanium/20", "spore-pod/5"]
     },

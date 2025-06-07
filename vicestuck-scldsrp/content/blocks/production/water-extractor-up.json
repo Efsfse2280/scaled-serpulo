@@ -5,8 +5,7 @@
   "liquidCapacity": 320,
   "hasLiquids": true,
   "craftTime": 840,
-  "baseEfficiency": 0.14,
-  "boostScale": 0.5,
+  "boostScale": 0.1,
   "maxBoost": 4,
   "consumes": {
     "power": 17,
