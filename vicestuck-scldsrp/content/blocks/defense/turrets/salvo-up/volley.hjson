@@ -6,8 +6,8 @@ range: 208
 targetGround: true
 targetAir: true
 reload: 60
-recoil: 2.5
-inaccuracy: 3
+recoil: 2
+inaccuracy: 5
 shootSound: none
 shoot: {
   type: ShootMulti
@@ -26,10 +26,11 @@ shoot: {
 ammoPerShot: 2
 ammoTypes: {
   lead: {
-    damage: 14
+    damage: 16
     speed: 4
     lifetime: 52
     reloadMultiplier: 0.8
+    ammoMultiplier: 3
     height: 15
     width: 10
     frontColor: b3b7cf
@@ -79,9 +80,9 @@ ammoTypes: {
     ]
   }
   pyratite: {
-    damage: 14
-    splashDamage: 16
-    splashDamageRadius: 15
+    damage: 26
+    splashDamage: 14
+    splashDamageRadius: 26
     speed: 4
     lifetime: 52
     reloadMultiplier: 0.85
@@ -109,7 +110,7 @@ ammoTypes: {
     ]
   }
   silicon: {
-    damage: 19
+    damage: 22
     speed: 4
     lifetime: 52
     reloadMultiplier: 1.8
@@ -136,12 +137,12 @@ ammoTypes: {
     ]
   }
   thorium: {
-    damage: 25
+    damage: 32
     pierce: true
     pierceCap: 2
     speed: 4
     lifetime: 52
-    ammoMultiplier: 3
+    ammoMultiplier: 7
     height: 22
     width: 13
     frontColor: ffffff
