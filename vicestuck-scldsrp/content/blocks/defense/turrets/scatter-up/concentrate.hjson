@@ -6,7 +6,7 @@ range: 268
 rotateSpeed: 2
 shootCone: 30
 reload: 70
-recoil: 3
+recoil: 2.4
 recoils: 2
 recoilTime: 24
 inaccuracy: 9

@@ -1,7 +1,7 @@
 {
   "type": "PowerTurret",
   "size": 3,
-  "health": 1600,
+  "scaledHealth": 230,
   "range": 174,
   "rotateSpeed": 3.8,
   "reload": 166,

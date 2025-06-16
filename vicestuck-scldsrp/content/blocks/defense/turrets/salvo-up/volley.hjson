@@ -1,7 +1,7 @@
 type: ItemTurret
 liquidCapacity: 20
 size: 2
-health: 800
+scaledHealth: 220
 range: 208
 targetGround: true
 targetAir: true
@@ -20,6 +20,29 @@ shoot: {
     {
       shots: 4
       shotDelay: 3
+    }
+  ]
+}
+drawer: {
+  type: DrawTurret
+  parts: [
+    {
+      type: RegionPart
+      under: true
+      suffix: -barrel
+      x: 2
+      recoilIndex: 1
+      moveY: -2
+      progress: recoil
+    }
+    {
+      type: RegionPart
+      under: true
+      suffix: -barrel
+      x: -2
+      recoilIndex: 0
+      moveY: -2
+      progress: recoil
     }
   ]
 }
@@ -59,8 +82,8 @@ ammoTypes: {
     splashDamageRadius: 41
     inaccuracy: 18
     rangeChange: 88
-    height: 12
-    width: 9
+    height: 13
+    width: 7
     frontColor: f5e0cc
     backColor: d8887e
     hitColor: d8887e
@@ -87,8 +110,8 @@ ammoTypes: {
     rangeChange: 42
     reloadMultiplier: 0.8
     ammoMultiplier: 7
-    height: 12
-    width: 8
+    height: 17
+    width: 9
     frontColor: f8ad42
     backColor: f68021
     shootEffect: shootSmall
@@ -115,7 +138,7 @@ ammoTypes: {
     lifetime: 52
     reloadMultiplier: 1.5
     ammoMultiplier: 6
-    height: 12
+    height: 15
     width: 8
     frontColor: 999ba0
     backColor: 707594
@@ -144,8 +167,8 @@ ammoTypes: {
     lifetime: 60
     rangeChange: 62
     ammoMultiplier: 7
-    height: 22
-    width: 13
+    height: 19
+    width: 11
     frontColor: ffffff
     backColor: f595be
     hitColor: f595be
