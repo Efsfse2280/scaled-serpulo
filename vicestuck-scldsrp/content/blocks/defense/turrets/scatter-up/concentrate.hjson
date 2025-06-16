@@ -65,6 +65,8 @@ ammoTypes: {
     ammoMultiplier: 3
     reloadMultiplier: 1.2
     damage: 8
+    frontColor: b3b7cf
+    backColor: 8c7fa9
     splashDamage: 33
     splashDamageRadius: 29
     speed: 10
@@ -95,6 +97,8 @@ ammoTypes: {
     lifetime: 30
     width: 7
     height: 20
+    frontColor: ffffff
+    backColor: b9c9df
     hitEffect: massiveExplosion
     fragBullets: 6
     fragBullet: {
