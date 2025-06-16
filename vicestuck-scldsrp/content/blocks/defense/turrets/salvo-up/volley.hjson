@@ -141,9 +141,9 @@ ammoTypes: {
     ammoMultiplier: 6
     height: 15
     width: 8
-    frontColor: Pal.siliconAmmoFront
-    backColor: Pal.siliconAmmoBack
-    hitColor: Pal.siliconAmmoBack
+    frontColor: 999ba0
+    backColor: 707594
+    hitColor: 707594
     hitEffect: hitBulletColor
     despawnEffect: hitBulletColor
     shootEffect: shootSmall
