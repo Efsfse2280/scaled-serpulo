@@ -12,9 +12,10 @@
     "barrels": [6.5, -1, 0, 0, 0, 0, -6.5, -1, 0]
   },
   "consumes": {
-    "power": 10,
+    "power": 9.6,
     "coolant": {
-      "amount": 0.4
+      "amount": 0.4,
+      "optional": false
     }
   },
   "recoil": 3,
