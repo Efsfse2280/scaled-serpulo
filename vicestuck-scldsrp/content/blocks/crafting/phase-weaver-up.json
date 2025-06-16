@@ -27,9 +27,9 @@
   "ambientSound": "techloop",
   "ambientSoundVolume": 0.04,
   "consumes": {
-    "power": 26,
+    "power": 25,
     "items": {
-      "items": ["sand/100", "thorium/40"]
+      "items": ["sand/50", "thorium/20"]
     },
     "liquid": {
       "liquid": "cryofluid",
@@ -47,5 +47,5 @@
   ],
   "category": "crafting",
   "research": "phase-weaver",
-  "outputItem": "phase-fabric/12"
+  "outputItem": "phase-fabric/6"
 }

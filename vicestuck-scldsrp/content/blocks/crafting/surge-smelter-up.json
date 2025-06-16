@@ -44,7 +44,7 @@
     }
   },
   "requirements": [
-    "lead/540",
+    "copper/540",
     "silicon/400",
     "titanium/360",
     "plastanium/240",

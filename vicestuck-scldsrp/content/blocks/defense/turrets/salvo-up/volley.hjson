@@ -5,7 +5,7 @@ health: 800
 range: 208
 targetGround: true
 targetAir: true
-reload: 60
+reload: 75
 recoil: 2
 inaccuracy: 5
 shootSound: none
@@ -14,7 +14,7 @@ shoot: {
   source: {
     type: ShootAlternate
     spread: 5.5
-    shotDelay: 20
+    shotDelay: 25
     }
   dest: [
     {
@@ -29,7 +29,6 @@ ammoTypes: {
     damage: 16
     speed: 4
     lifetime: 52
-    reloadMultiplier: 0.8
     ammoMultiplier: 3
     height: 15
     width: 10
@@ -52,14 +51,14 @@ ammoTypes: {
   }
   scrap: {
     damage: 3
-    speed: 5
-    lifetime: 50
-    reloadMultiplier: 1.35
+    speed: 7
+    lifetime: 42
+    reloadMultiplier: 1.2
     ammoMultiplier: 3
-    splashDamage: 29
-    splashDamageRadius: 15
+    splashDamage: 27
+    splashDamageRadius: 41
     inaccuracy: 18
-    rangeChange: 40
+    rangeChange: 88
     height: 12
     width: 9
     frontColor: f5e0cc
@@ -82,10 +81,11 @@ ammoTypes: {
   pyratite: {
     damage: 26
     splashDamage: 14
-    splashDamageRadius: 26
-    speed: 4
-    lifetime: 52
-    reloadMultiplier: 0.85
+    splashDamageRadius: 33
+    speed: 5
+    lifetime: 50
+    rangeChange: 42
+    reloadMultiplier: 0.8
     ammoMultiplier: 7
     height: 12
     width: 8
@@ -113,7 +113,7 @@ ammoTypes: {
     damage: 22
     speed: 4
     lifetime: 52
-    reloadMultiplier: 1.8
+    reloadMultiplier: 1.5
     ammoMultiplier: 6
     height: 12
     width: 8
@@ -140,8 +140,9 @@ ammoTypes: {
     damage: 32
     pierce: true
     pierceCap: 2
-    speed: 4
-    lifetime: 52
+    speed: 4.5
+    lifetime: 60
+    rangeChange: 62
     ammoMultiplier: 7
     height: 22
     width: 13
