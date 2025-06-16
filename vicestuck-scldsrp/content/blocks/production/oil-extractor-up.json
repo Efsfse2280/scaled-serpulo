@@ -39,7 +39,7 @@
   "hasItems": true,
   "itemCapacity": 40,
   "boostScale": 0.096,
-  "maxBoost": 3.8,
+  "maxBoost": 4,
   "craftTime": 92,
   "liquidCapacity": 200,
   "attribute": "oil",

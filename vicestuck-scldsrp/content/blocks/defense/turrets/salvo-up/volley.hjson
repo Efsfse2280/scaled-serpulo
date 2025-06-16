@@ -30,8 +30,8 @@ drawer: {
     {
       type: RegionPart
       under: true
-      suffix: -barrel
-      x: 2
+      suffix: -barrel-r
+      x: 2.25
       recoilIndex: 1
       moveY: -2
       progress: recoil
@@ -39,8 +39,8 @@ drawer: {
     {
       type: RegionPart
       under: true
-      suffix: -barrel
-      x: -2
+      suffix: -barrel-l
+      x: -2.25
       recoilIndex: 0
       moveY: -2
       progress: recoil

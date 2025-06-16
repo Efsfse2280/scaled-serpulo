@@ -2,8 +2,8 @@
   "type": "PowerNode",
   "size": 4,
   "scaledHealth": 80,
-  "laserRange": 34,
-  "maxNodes": 24,
+  "laserRange": 27,
+  "maxNodes": 20,
   "hasPower": true,
   "category": "power",
   "requirements": [
