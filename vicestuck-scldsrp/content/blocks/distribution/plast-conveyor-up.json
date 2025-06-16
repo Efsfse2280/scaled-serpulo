@@ -3,7 +3,7 @@
   "loadEffect": "conveyorPoof",
   "unloadEffect": "conveyorPoof",
   "scaledHealth": 200,
-  "speed": 0.1,
+  "speed": 0.084,
   "itemCapacity": 30,
   "requirements": ["surge-alloy/2", "silicon/4", "plastanium/3"],
   "research": {

@@ -1,7 +1,7 @@
 {
   "type": "ForceProjector",
   "scaledHealth": 90,
-  "shieldHealth": 5400,
+  "shieldHealth": 5000,
   "size": 5,
   "sides": 12,
   "liquidCapacity": 80,
@@ -11,15 +11,15 @@
   "hasItems": true,
   "canOverdrive": true,
   "phaseUseTime": 192,
-  "phaseRadiusBoost": 56,
-  "phaseShieldBoost": 2600,
+  "phaseRadiusBoost": 48,
+  "phaseShieldBoost": 2200,
   "solid": true,
-  "radius": 296,
+  "radius": 288,
   "cooldownNormal": 3.6,
   "cooldownLiquid": 2.4,
   "cooldownBrokenBase": 1.8,
   "consumes": {
-    "power": 32,
+    "power": 29.5,
     "items": {
       "items": ["phase-fabric/1", "silicon/3"],
     }

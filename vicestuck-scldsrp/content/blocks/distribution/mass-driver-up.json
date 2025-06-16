@@ -3,24 +3,24 @@
   "size": 5,
   "scaledHealth": 70,
   "itemCapacity": 600,
-  "range": 1300,
+  "range": 900,
   "reload": 650,
-  "bulletLifetime": 500,
+  "bulletLifetime": 90,
   "bulletSpeed": 10,
   "hasPower": true,
   "consumes": {
-    "power": 11,
+    "power": 9,
     "liquid": {
       "liquid": "cryofluid",
-      "amount": 0.5
+      "amount": 0.4
     }
   },
   "requirements": [
-    "plastanium/320",
+    "plastanium/350",
     "surge-alloy/210",
-    "silicon/400",
-    "phase-fabric/160",
-    "thorium/240"
+    "silicon/430",
+    "phase-fabric/120",
+    "thorium/270"
   ],
   "category": "distribution",
   "research": "mass-driver"

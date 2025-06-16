@@ -5,10 +5,10 @@
   "buildCostMultiplier": 2,
   "reload": 140,
   "range": 178,
-  "healPercent": 10,
+  "healPercent": 8,
   "itemCapacity": 20,
   "hasPower": true,
-  "phaseBoost": 6,
+  "phaseBoost": 8,
   "useTime": 432,
   "phaseRangeBoost": 72,
   "consumes": {

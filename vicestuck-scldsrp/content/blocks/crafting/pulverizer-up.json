@@ -29,7 +29,7 @@
   "hasItems": true,
   "itemCapacity": 60,
   "liquidCapacity": 80,
-  "craftTime": 240,
+  "craftTime": 184,
   "craftEffect": "pulverize",
   "updateEffect": "pulverizeSmall",
   "ambientSound": "grinding",
@@ -41,7 +41,7 @@
     },
     "liquid": {
       "liquid": "water",
-      "amount": 0.8
+      "amount": 0.75
     }
   },
   "requirements": ["titanium/170", "lead/210", "silicon/180", "plastanium/60"],

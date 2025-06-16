@@ -7,6 +7,7 @@ targetGround: true
 targetAir: true
 reload: 75
 recoil: 2
+recoils: 2
 inaccuracy: 5
 shootSound: none
 shoot: {
