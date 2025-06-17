@@ -69,7 +69,7 @@
     "parent": "duo"
   },
   "reload": 16,
-  "recoil": 0.2,
+  "recoil": 0.4,
   "shootY": 8,
   "shootCone": 45,
   "range": 180,

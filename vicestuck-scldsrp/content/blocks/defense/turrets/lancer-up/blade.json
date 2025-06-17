@@ -18,7 +18,7 @@
       "optional": false
     }
   },
-  "recoil": 3,
+  "recoil": 2.8,
   "shootSound": "laser",
   "shootType": {
     "type": "LaserBulletType",
