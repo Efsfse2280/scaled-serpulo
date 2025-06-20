@@ -5,7 +5,7 @@ scaledHealth: 220
 range: 208
 targetGround: true
 targetAir: true
-reload: 75
+reload: 57
 recoil: 2
 recoils: 2
 inaccuracy: 5
@@ -15,7 +15,6 @@ shoot: {
   source: {
     type: ShootAlternate
     spread: 5.5
-    shotDelay: 25
     }
   dest: [
     {
@@ -106,6 +105,8 @@ ammoTypes: {
     damage: 26
     splashDamage: 14
     splashDamageRadius: 33
+    pierce: true
+    pierceCap: 1
     speed: 5
     lifetime: 50
     rangeChange: 42
@@ -189,9 +190,10 @@ ammoTypes: {
   }
 }
 requirements: [
-  copper/220
-  graphite/140
-  titanium/90
+  copper/240
+  graphite/120
+  titanium/80
+  plastanium/40
 ]
 maxAmmo: 20
 category: turret

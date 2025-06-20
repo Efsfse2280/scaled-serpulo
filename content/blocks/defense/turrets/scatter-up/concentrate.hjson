@@ -28,6 +28,7 @@ shoot: {
   ]
 }
 consumes: {
+  power: 2.35
   coolant: {
     amount: 0.3
   }
