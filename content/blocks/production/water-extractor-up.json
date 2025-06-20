@@ -1,13 +1,11 @@
 {
-  "type": "AttributeCrafter",
+  "type": "SolidPump",
   "size": 4,
   "scaledHealth": 65,
   "liquidCapacity": 320,
   "hasLiquids": true,
-  "craftTime": 840,
-  "boostScale": 0.12,
-  "maxBoost": 2,
-  "minEfficiency": 0.16,
+  "consumeTime": 840,
+  "baseEfficiency": 1.1,
   "consumes": {
     "power": 17,
     "items": {
@@ -53,6 +51,7 @@
     "thorium/80"
   ],
   "category": "production",
-  "outputLiquid": "water/0.64",
+  "pumpAmount": 0.6,
+  "result": "water",
   "research": "water-extractor"
 }
