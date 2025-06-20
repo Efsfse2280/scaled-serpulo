@@ -5,12 +5,14 @@
   "liquidCapacity": 320,
   "hasLiquids": true,
   "craftTime": 840,
-  "boostScale": 0.1,
-  "maxBoost": 4,
+  "boostScale": 0.12,
+  "maxBoost": 2,
+  "minEfficiency": 0.16,
   "consumes": {
     "power": 17,
     "items": {
-      "items": ["coal/1"]
+      "items": ["coal/1"],
+      "optional": false
     }
   },
   "attribute": "water",

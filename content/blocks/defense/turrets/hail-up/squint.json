@@ -65,6 +65,34 @@
       "pierce": true,
       "pierceCap": 4,
       "rangeChange": 40
+    },
+    "metaglass": {
+      "type": "ShrapnelBulletType",
+      "serrations": 0,
+      "shootEffect": "hitBulletSmall",
+      "smokeEffect": "hitBulletSmall",
+      "fromColor": "b9c9df",
+      "toColor": "ffffff",
+      "width": 10,
+      "length": 328,
+      "damage": 76,
+      "ammoMultiplier": 2,
+      "buildingDamageMultiplier": 0.2,
+      "pierce": true,
+      "pierceCap": 2,
+      "rangeChange": 80,
+      "fragBullets": 4,
+      "fragBullet": {
+        "type": "ShrapnelBulletType",
+        "serrations": 0,
+        "fromColor": "b9c9df",
+        "toColor": "ffffff",
+        "width": 4,
+        "length": 38,
+        "damage": 12,
+        "pierce": true,
+        "buildingDamageMultiplier": 0.2
+      }
     }
   },
   "requirements": ["copper/70", "graphite/60", "silicon/40"],
