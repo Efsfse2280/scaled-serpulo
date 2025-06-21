@@ -9,7 +9,7 @@
     "items": {
       "items": ["silicon/2", "phase-fabric/2", "surge-alloy/2"],
       "booster": false,
-      "optional": true
+      "optional": false
     }
   },
   "speedBoost": 2,

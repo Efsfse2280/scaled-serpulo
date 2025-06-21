@@ -5,7 +5,7 @@ size: 3
 range: 268
 rotateSpeed: 2
 shootCone: 30
-reload: 70
+reload: 33
 recoil: 2.4
 recoils: 2
 recoilTime: 24
@@ -16,8 +16,6 @@ shoot: {
   type: ShootMulti
   source: {
     type: ShootAlternate
-    shotDelay: 35
-    shots: 2
     spread: 8
   }
   dest: [
