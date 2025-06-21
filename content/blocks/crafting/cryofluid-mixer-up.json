@@ -35,14 +35,14 @@
   "hasItems": true,
   "rotateDraw": false,
   "rotate": true,
-  "itemCapacity": 60,
-  "liquidCapacity": 280,
-  "craftTime": 702,
+  "itemCapacity": 30,
+  "liquidCapacity": 320,
+  "craftTime": 421,
   "outputsLiquid": true,
   "consumes": {
     "power": 11.4,
     "items": {
-      "items": ["titanium/30"]
+      "items": ["titanium/20"]
     },
     "liquid": {
       "liquid": "water",
@@ -50,17 +50,18 @@
     }
   },
   "requirements": [
-    "lead/280",
-    "titanium/180",
+    "lead/260",
+    "copper/230", 
+    "titanium/190",
     "silicon/240",
     "plastanium/120",
-    "metaglass/200"
+    "metaglass/300"
   ],
   "category": "crafting",
   "research": {
     "parent": "cryofluid-mixer",
     "objectives": ["tarFields"]
   },
-  "outputLiquids": ["cryofluid/0.6", "cryofluid/0.6"],
+  "outputLiquids": ["cryofluid/0.7", "cryofluid/0.7"],
   "liquidOutputDirections": [1, 3]
 }

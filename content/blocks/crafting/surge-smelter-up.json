@@ -32,10 +32,10 @@
     "items": {
       "items": [
         "silicon/40",
-        "titanium/25",
+        "titanium/30",
         "lead/50",
-        "copper/35",
-        "blast-compound/7"
+        "copper/40",
+        "blast-compound/8"
       ]
     },
     "liquid": {

@@ -2,7 +2,7 @@
   "type": "AttributeCrafter",
   "scaledHealth": 80,
   "outputLiquid": "oil/1",
-  "baseEfficiency": 1.12,
+  "baseEfficiency": 0.12,
   "drawer": {
     "type": "DrawMulti",
     "drawers": [

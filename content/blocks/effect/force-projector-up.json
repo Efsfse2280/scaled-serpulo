@@ -21,7 +21,7 @@
   "consumes": {
     "power": 29.5,
     "items": {
-      "items": ["phase-fabric/1", "silicon/3"],
+      "items": ["phase-fabric/1", "silicon/3"]
     }
   },
   "requirements": [
