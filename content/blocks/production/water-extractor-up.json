@@ -12,7 +12,9 @@
       "items": ["coal/1"],
       "optional": false
     }
+    
   },
+  "rotateSpeed": 5,
   "attribute": "water",
   "drawer": {
     "type": "DrawMulti",
@@ -24,12 +26,6 @@
         "type": "DrawLiquidRegion",
         "drawLiquid": "water",
         "suffix": "-liquid"
-      },
-      {
-        "type": "DrawRegion",
-        "suffix": "-rotator1",
-        "rotateSpeed": 5,
-        "spinSprite": true
       },
       {
         "type": "DrawRegion",
