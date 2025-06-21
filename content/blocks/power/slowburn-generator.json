@@ -30,7 +30,7 @@
     "pyratite": 4
   },
   "requirements": [
-    "titanium/60",
+    "copper/80",
     "silicon/40",
     "graphite/40",
     "metaglass/30"
