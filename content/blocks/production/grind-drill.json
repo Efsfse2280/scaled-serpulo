@@ -26,7 +26,7 @@
     }
   },
   "requirements": [
-    "graphite/20",
+    "graphite/18",
     "metaglass/20",
     "silicon/12"
   ],

@@ -7,14 +7,6 @@
   "floating": true,
   "hasLiquids": true,
   "liquidCapacity": 120,
-  "consumes": {
-    "liquids": {
-      "liquids": [
-        "water/0.2"
-      ],
-      "optional": false
-    }
-  },
   "requirements": [
     "metaglass/280",
     "silicon/320",

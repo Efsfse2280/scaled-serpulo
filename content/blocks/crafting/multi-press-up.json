@@ -4,7 +4,7 @@
   "scaledHealth": 70,
   "hasPower": true,
   "hasItems": true,
-  "itemCapacity": 160,
+  "itemCapacity": 80,
   "liquidCapacity": 36,
   "craftTime": 294,
   "craftEffect": "pulverize",

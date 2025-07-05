@@ -11,7 +11,7 @@
     "rotationSpacing": 45,
     "effect": {
       "particles": 1,
-      "length": 90,
+      "length": 75,
       "lifetime": 440,
       "cone": 11,
       "baseRotation": 35,
