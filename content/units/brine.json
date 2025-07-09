@@ -7,6 +7,8 @@
   "rotateSpeed": 3,
   "armor": 4,
   "hitSize": 22,
+  "omniMovement": false,
+  "rotateMoveFirst": true,
   "treadRects": [
     {
       "x": 0,
