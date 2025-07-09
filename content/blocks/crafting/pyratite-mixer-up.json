@@ -25,15 +25,11 @@
   "hasItems": true,
   "liquidCapacity": 60,
   "itemCapacity": 60,
-  "craftTime": 276,
+  "craftTime": 313,
   "consumes": {
-    "power": 5,
+    "power": 6,
     "items": {
-      "items": ["sand/30", "lead/25", "spore-pod/15"]
-    },
-    "liquid": {
-      "liquid": "oil",
-      "amount": 0.2
+      "items": ["sand/40", "lead/40", "spore-pod/25"]
     }
   },
   "requirements": [
@@ -45,5 +41,5 @@
   ],
   "category": "crafting",
   "research": "pyratite-mixer",
-  "outputItem": "pyratite/20"
+  "outputItem": "pyratite/25"
 }

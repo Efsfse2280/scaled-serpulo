@@ -19,9 +19,9 @@
   },
   "hasPower": true,
   "hasItems": true,
-  "itemCapacity": 200,
+  "itemCapacity": 120,
   "liquidCapacity": 96,
-  "craftTime": 384,
+  "craftTime": 426,
   "craftEffect": "smeltsmoke",
   "updateEffect": "none",
   "ambientSound": "techloop",
@@ -29,7 +29,7 @@
   "consumes": {
     "power": 25,
     "items": {
-      "items": ["sand/50", "thorium/20"]
+      "items": ["sand/60", "thorium/25"]
     },
     "liquid": {
       "liquid": "cryofluid",
@@ -47,5 +47,5 @@
   ],
   "category": "crafting",
   "research": "phase-weaver",
-  "outputItem": "phase-fabric/6"
+  "outputItem": "phase-fabric/7"
 }

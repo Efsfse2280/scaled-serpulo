@@ -44,7 +44,8 @@
     "titanium/280",
     "silicon/300",
     "plastanium/200",
-    "thorium/120"
+    "thorium/120",
+    "surge-alloy/60"
   ],
   "category": "crafting",
   "research": "plastanium-compressor",

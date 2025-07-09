@@ -37,12 +37,13 @@
     }
   },
   "requirements": [
-    "copper/320",
+    "copper/310",
     "metaglass/280",
     "titanium/240",
     "silicon/260",
-    "graphite/200",
-    "plastanium/40"
+    "graphite/250",
+    "thorium/130",
+    "plastanium/60"
   ],
   "category": "crafting",
   "research": "kiln",

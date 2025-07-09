@@ -2,10 +2,10 @@
   "type": "tank",
   "speed": 0.54,
   "faceTarget": false,
-  "health": 740,
+  "health": 600,
   "fogRadius": 12,
   "rotateSpeed": 1.4,
-  "armor": 3,
+  "armor": 4,
   "drownTimeMultiplier": 0,
   "hitSize": 12,
   "omniMovement": false,
@@ -43,8 +43,8 @@
         "knockback": 1,
         "orbSize": 2,
         "puddleSize": 4,
-        "speed": 5,
-        "lifetime": 28
+        "speed": 2.5,
+        "lifetime": 56
       }
     }
   ]
