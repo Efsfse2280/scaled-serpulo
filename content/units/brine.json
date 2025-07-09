@@ -1,6 +1,7 @@
 {
   "speed": 0.54,
   "accel": 0.02,
+  "drag": 0.003,
   "faceTarget": false,
   "health": 340,
   "fogRadius": 12,
@@ -9,6 +10,7 @@
   "hitSize": 22,
   "omniMovement": false,
   "rotateMoveFirst": true,
+  "outlines": false,
   "treadRects": [
     {
       "x": 0,
@@ -20,23 +22,23 @@
   "weapons": [
     {
       "name": "brine-hose",
-      "reload": 28,
+      "reload": 14,
       "mirror": true,
       "rotate": true,
       "x": 4,
       "y": -0.75,
       "top": true,
-      "knockback": 1.5,
       "shootY": 2,
       "bullet": {
         "type": "LiquidBulletType",
         "liquid": "water",
         "damage": 12,
-        "orbSize": 4,
+        "knockback": 1.5,
+        "orbSize": 2,
         "puddleSize": 4,
         "shootEffect": "shootSmall",
         "speed": 5,
-        "lifetime": 12
+        "lifetime": 28
       }
     }
   ]
