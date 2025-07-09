@@ -1,8 +1,6 @@
 {
   "type": "tank",
   "speed": 0.54,
-  "accel": 0.02,
-  "drag": 0.012,
   "faceTarget": false,
   "health": 740,
   "fogRadius": 12,
