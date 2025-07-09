@@ -11,7 +11,7 @@
   "omniMovement": false,
   "rotateMoveFirst": true,
   "outlines": false,
-  "treadPullOffset": 2,
+  "treadPullOffset": 1,
   "treadRects": [
     {
       "x": 10,
