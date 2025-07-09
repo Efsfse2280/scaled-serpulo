@@ -1,11 +1,12 @@
 {
+  "type": "tank",
   "speed": 0.54,
   "accel": 0.02,
-  "drag": 0.003,
+  "drag": 0.012,
   "faceTarget": false,
   "health": 740,
   "fogRadius": 12,
-  "rotateSpeed": 3,
+  "rotateSpeed": 1.4,
   "armor": 3,
   "drownTimeMultiplier": 0,
   "hitSize": 12,
@@ -37,7 +38,6 @@
         "knockback": 1,
         "orbSize": 2,
         "puddleSize": 4,
-        "shootEffect": "shootSmall",
         "speed": 5,
         "lifetime": 28
       }
