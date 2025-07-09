@@ -2,7 +2,7 @@
   "speed": 0.54,
   "accel": 0.02,
   "faceTarget": false,
-  "health": 320,
+  "health": 340,
   "fogRadius": 12,
   "rotateSpeed": 3,
   "armor": 4,
@@ -15,5 +15,27 @@
       "height": 45
     }
   ],
-  "weapons": []
+  "weapons": [
+    {
+      "name": "brine-hose",
+      "reload": 28,
+      "mirror": true,
+      "rotate": true,
+      "x": 4,
+      "y": -0.75,
+      "top": true,
+      "knockback": 1.5,
+      "shootY": 2,
+      "bullet": {
+        "type": "LiquidBulletType",
+        "liquid": "water",
+        "damage": 12,
+        "orbSize": 4,
+        "puddleSize": 4,
+        "shootEffect": "shootSmall",
+        "speed": 5,
+        "lifetime": 12
+      }
+    }
+  ]
 }
