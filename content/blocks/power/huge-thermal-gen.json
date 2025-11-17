@@ -13,6 +13,14 @@
     "thorium/240",
     "plastanium/110"
   ],
+  "consumes": {
+    "liquid": {
+      "liquid": "water",
+      "amount": 0.1,
+      "booster": false,
+      "optional": false
+    }
+  },
   "category": "power",
   "research": "thermal-generator"
 }
