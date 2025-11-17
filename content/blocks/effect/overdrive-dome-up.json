@@ -2,7 +2,7 @@
   "type": "OverdriveProjector",
   "scaledHealth": 90,
   "size": 4,
-  "range": 307,
+  "range": 227,
   "itemCapacity": 25,
   "consumes": {
     "power": 37,
