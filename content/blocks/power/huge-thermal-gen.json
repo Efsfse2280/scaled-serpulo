@@ -2,25 +2,16 @@
   "type": "ThermalGenerator",
   "size": 4,
   "scaledHealth": 80,
-  "powerProduction": 3.6,
+  "powerProduction": 2.5,
   "generateEffect": "redgeneratespark",
   "floating": true,
   "hasLiquids": true,
-  "liquidCapacity": 120,
   "requirements": [
     "metaglass/280",
     "silicon/320",
     "thorium/240",
     "plastanium/110"
   ],
-  "consumes": {
-    "liquid": {
-      "liquid": "water",
-      "amount": 0.1,
-      "booster": false,
-      "optional": false
-    }
-  },
   "category": "power",
   "research": "thermal-generator"
 }
