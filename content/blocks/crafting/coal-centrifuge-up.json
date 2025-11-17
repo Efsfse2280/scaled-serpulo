@@ -4,7 +4,7 @@
   "scaledHealth": 60,
   "hasPower": true,
   "hasItems": true,
-  "itemCapacity": 40,
+  "itemCapacity": 60,
   "liquidCapacity": 30,
   "craftTime": 148,
   "craftEffect": "smokeCloud",

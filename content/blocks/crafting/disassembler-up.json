@@ -33,7 +33,7 @@
   "hasPower": true,
   "hasLiquids": true,
   "hasItems": true,
-  "itemCapacity": 100,
+  "itemCapacity": 50,
   "liquidCapacity": 50,
   "craftTime": 6,
   "consumes": {

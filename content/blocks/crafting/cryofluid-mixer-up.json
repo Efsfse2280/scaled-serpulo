@@ -35,7 +35,7 @@
   "hasItems": true,
   "rotateDraw": false,
   "rotate": true,
-  "itemCapacity": 30,
+  "itemCapacity": 80,
   "liquidCapacity": 320,
   "craftTime": 421,
   "outputsLiquid": true,

@@ -1,13 +1,13 @@
 name: scldsrp
-displayName: Scaled Serpulo
+displayName: 
 author: "Vicestuck (efefse)"
 description:
   '''
-- Heavily altered fork of Upgraded Tiers.
-- This mod adds scaled versions of Serpulo blocks, with extra Q-o-L blocks in certain categories.
+- As a heavily altered fork of Upgraded Tiers, this mod aims to extend production complexity & amount as well as utilities.
+- This mod adds scaled versions of/new Serpulo blocks.
 - thanks to original authors: 
-- [#ffd37f]mq_1175[] for base mod and sprites
-- sputnuc(?) for added oil gens and added content from base mod
+- [#ffd37f]mq_1175[] 
+- sputnuc(?)
   '''
 version: 1.0
 minGameVersion: 149

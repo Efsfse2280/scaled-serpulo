@@ -27,7 +27,7 @@
   "hasPower": true,
   "hasLiquids": true,
   "hasItems": true,
-  "itemCapacity": 60,
+  "itemCapacity": 90,
   "liquidCapacity": 80,
   "craftTime": 184,
   "craftEffect": "pulverize",
