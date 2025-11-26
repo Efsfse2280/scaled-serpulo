@@ -39,13 +39,13 @@
     }
   },
   "requirements": [
-    "graphite/400",
-    "metaglass/320",
-    "titanium/280",
-    "silicon/300",
-    "plastanium/200",
-    "thorium/120",
-    "surge-alloy/60"
+    "graphite/320",
+    "silicon/310",
+    "titanium/270",
+    "metaglass/300",
+    "plastanium/230",
+    "thorium/130",
+    "surge-alloy/70"
   ],
   "category": "crafting",
   "research": "plastanium-compressor",

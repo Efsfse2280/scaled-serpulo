@@ -6,6 +6,6 @@
   "research": "refurbished-scrap-wall-gigantic",
   "category": "defense",
   "buildCostMultiplier": 3,
-  "requirements": ["scrap/325", "copper/175", "lead/175", "graphite/65"],
+  "requirements": ["copper/175", "lead/175", "scrap/325", "graphite/65"],
   "floating": true
 }

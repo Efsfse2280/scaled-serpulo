@@ -6,6 +6,6 @@
   "research": "refurbished-scrap-wall",
   "category": "defense",
   "buildCostMultiplier": 1.2,
-  "requirements": ["scrap/40", "copper/16", "lead/16"],
+  "requirements": ["copper/16", "lead/16", "scrap/40"],
   "placeableLiquid": true
 }

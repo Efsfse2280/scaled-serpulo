@@ -9,10 +9,10 @@
     "power": 2.4
   },
   "requirements": [
-    "titanium/170",
-    "metaglass/240",
-    "silicon/210",
     "lead/270",
+    "silicon/210",
+    "metaglass/240",
+    "titanium/170",
     "plastanium/120",
     "thorium/90"
   ],

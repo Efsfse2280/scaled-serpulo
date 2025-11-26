@@ -52,10 +52,10 @@
     "objectives": ["induction-generator"]
   },
   "requirements": [
-    "surge-alloy/20",
-    "thorium/140",
     "silicon/200",
+    "metaglass/220",
     "plastanium/120",
-    "metaglass/220"
+    "thorium/140",
+    "surge-alloy/20"
   ]
 }

@@ -1,7 +1,7 @@
 {
   "shootSound": "shootAlt",
   "ammoPerShot": 4,
-  "maxAmmo": 20,
+  "maxAmmo": 24,
   "ammoTypes": {
     "copper": {
       "type": "ShrapnelBulletType",

@@ -16,11 +16,11 @@
     }
   },
   "requirements": [
-    "plastanium/350",
-    "surge-alloy/210",
     "silicon/430",
+    "plastanium/350",
+    "thorium/270",
     "phase-fabric/120",
-    "thorium/270"
+    "surge-alloy/210"
   ],
   "category": "distribution",
   "research": "mass-driver"

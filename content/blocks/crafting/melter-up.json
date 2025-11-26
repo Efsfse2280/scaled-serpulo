@@ -27,14 +27,14 @@
   "consumes": {
     "power": 13,
     "items": {
-      "items": ["pyratite/3", "scrap/40"]
+      "items": ["pyratite/5", "scrap/40"]
     }
   },
   "requirements": [
-    "copper/260",
-    "titanium/200",
-    "silicon/180",
-    "plastanium/40"
+    "copper/280",
+    "silicon/160",
+    "titanium/210",
+    "plastanium/70"
   ],
   "category": "crafting",
   "research": "melter",

@@ -21,14 +21,14 @@
   "consumes": {
     "power": 29.5,
     "items": {
-      "items": ["phase-fabric/1", "silicon/3"]
+      "items": ["silicon/3", "phase-fabric/1"]
     }
   },
   "requirements": [
-    "thorium/320",
-    "titanium/440",
     "silicon/500",
+    "titanium/440",
     "plastanium/400",
+    "thorium/320",
     "phase-fabric/240",
     "surge-alloy/160"
   ],

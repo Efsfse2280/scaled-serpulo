@@ -2,31 +2,34 @@
   "type": "PowerTurret",
   "size": 3,
   "scaledHealth": 230,
-  "range": 174,
+  "range": 173,
   "rotateSpeed": 3.8,
-  "reload": 166,
+  "reload": 146,
+  "targetAir": false,
   "shoot": {
     "type": "ShootBarrel",
     "shots": 3,
-    "shotDelay": 6,
-    "barrels": [6.5, -1, 0, 0, 0, 0, -6.5, -1, 0]
+    "firstShotDelay": 30,
+    "accurateDelay": false,
+    "shotDelay": 7,
+    "barrels": [0, 0, 0, 6.5, -1, 0, -6.5, -1, 0]
   },
   "consumes": {
-    "power": 9.6,
+    "power": 11.7,
     "coolant": {
       "amount": 0.4,
       "optional": false
     }
   },
-  "recoil": 2.8,
+  "recoil": 2.7,
   "shootSound": "laser",
   "shootType": {
     "type": "LaserBulletType",
-    "length": 154,
-    "width": 26,
-    "damage": 92,
+    "length": 170,
+    "width": 27,
+    "damage": 96,
     "pierce": true,
-    "pierceCap": 4
+    "pierceCap": 3
   },
   "coolantMultiplier": 3,
   "category": "turret",

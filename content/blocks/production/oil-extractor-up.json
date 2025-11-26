@@ -27,27 +27,27 @@
   },
   "size": 5,
   "requirements": [
-    "silicon/480",
-    "titanium/540",
-    "metaglass/600",
-    "thorium/400",
-    "plastanium/360",
-    "surge-alloy/120"
+    "silicon/400",
+    "metaglass/460",
+    "titanium/330",
+    "plastanium/290",
+    "thorium/350",
+    "surge-alloy/110"
   ],
   "hasPower": true,
   "hasLiquids": true,
   "hasItems": true,
-  "itemCapacity": 40,
-  "boostScale": 0.084,
+  "itemCapacity": 30,
+  "boostScale": 0.08,
   "maxBoost": 4,
-  "craftTime": 92,
+  "craftTime": 184,
   "liquidCapacity": 200,
   "attribute": "oil",
   "consumes": {
     "power": 27.9,
     "items": {
       "items": [
-        "sand/5"
+        "sand/10"
       ]
     },
     "liquids": {

@@ -7,6 +7,6 @@
   "buildCostMultiplier": 4,
   "chanceDeflect": 10,
   "flashHit": true,
-  "requirements": ["phase-fabric/128", "thorium/80"],
+  "requirements": ["thorium/80", "phase-fabric/128"],
   "placeableLiquid": true
 }

@@ -8,6 +8,6 @@
   "absorbLasers": true,
   "schematicPriority": 10,
   "buildCostMultiplier": 3,
-  "requirements": ["plastanium/63", "metaglass/36"],
+  "requirements": ["metaglass/36", "plastanium/63"],
   "placeableLiquid": true
 }

@@ -4,6 +4,6 @@
   "health": 6400,
   "category": "defense",
   "buildCostMultiplier": 4,
-  "requirements": ["titanium/96", "silicon/64"],
+  "requirements": ["silicon/64", "titanium/96"],
   "placeableLiquid": true
 }

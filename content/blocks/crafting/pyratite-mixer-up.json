@@ -33,11 +33,11 @@
     }
   },
   "requirements": [
-    "lead/240",
-    "titanium/160",
+    "lead/220",
     "silicon/200",
     "metaglass/180",
-    "plastanium/60"
+    "titanium/140",
+    "plastanium/30"
   ],
   "category": "crafting",
   "research": "pyratite-mixer",

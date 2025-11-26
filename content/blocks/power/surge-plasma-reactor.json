@@ -52,11 +52,11 @@
     ]
   },
   "requirements": [
-    "titanium/2000",
-    "surge-alloy/1600",
-    "silicon/1800",
-    "plastanium/1200",
-    "phase-fabric/1000",
-    "metaglass/2400"
+    "silicon/1500",
+    "metaglass/1800",
+    "titanium/1600",
+    "plastanium/900",
+    "phase-fabric/800",
+    "surge-alloy/1200"
   ]
 }

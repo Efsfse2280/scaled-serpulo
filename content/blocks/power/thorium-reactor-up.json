@@ -1,6 +1,7 @@
 {
   "type": "NuclearReactor",
-  "scaledHealth": 260,
+  "scaledHealth": 230,
+  "armor": 2,
   "itemCapacity": 100,
   "liquidCapacity": 45,
   "size": 5,
@@ -9,8 +10,8 @@
   "explosionRadius": 24,
   "explosionDamage": 6300,
   "hasLiquids": true,
-  "powerProduction": 63,
-  "itemDuration": 744,
+  "powerProduction": 79,
+  "itemDuration": 684,
   "heating": 0.02,
   "consumes": {
     "items": ["thorium/4", "phase-fabric/1"],
@@ -20,12 +21,12 @@
     }
   },
   "requirements": [
-    "lead/800",
-    "silicon/700",
-    "metaglass/660",
-    "thorium/520",
-    "plastanium/380",
-    "surge-alloy/120"
+    "lead/700",
+    "silicon/600",
+    "metaglass/560",
+    "plastanium/370",
+    "thorium/480",
+    "surge-alloy/110"
   ],
   "category": "power",
   "research": "thorium-reactor"

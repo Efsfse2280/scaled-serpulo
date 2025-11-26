@@ -27,8 +27,8 @@
   },
   "requirements": [
     "graphite/18",
-    "metaglass/20",
-    "silicon/12"
+    "silicon/12",
+    "metaglass/20"
   ],
   "category": "production",
   "research": "pneumatic-drill"

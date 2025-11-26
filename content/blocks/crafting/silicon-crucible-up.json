@@ -33,12 +33,12 @@
     }
   },
   "requirements": [
+    "silicon/320",
     "metaglass/400",
     "titanium/360",
-    "silicon/320",
+    "plastanium/120",
     "thorium/200",
-    "surge-alloy/80",
-    "plastanium/120"
+    "surge-alloy/80"
   ],
   "category": "crafting",
   "research": "silicon-crucible",

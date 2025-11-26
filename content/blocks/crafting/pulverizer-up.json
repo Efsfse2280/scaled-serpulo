@@ -44,7 +44,7 @@
       "amount": 0.75
     }
   },
-  "requirements": ["titanium/170", "lead/210", "silicon/180", "plastanium/60"],
+  "requirements": ["lead/230", "silicon/190", "titanium/150", "plastanium/50"],
   "category": "crafting",
   "research": "pulverizer",
   "outputItem": "sand/30"

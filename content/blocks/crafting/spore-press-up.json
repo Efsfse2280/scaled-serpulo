@@ -36,11 +36,11 @@
     }
   },
   "requirements": [
-    "lead/400",
-    "titanium/320",
+    "lead/320",
     "metaglass/360",
-    "plastanium/130",
-    "thorium/80"
+    "titanium/320",
+    "plastanium/150",
+    "thorium/70"
   ],
   "category": "crafting",
   "research": "spore-press",

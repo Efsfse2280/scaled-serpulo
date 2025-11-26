@@ -9,7 +9,7 @@ reload: 57
 recoil: 2
 recoils: 2
 inaccuracy: 5
-shootSound: none
+shootSound: shootSalvo
 shoot: {
   type: ShootMulti
   source: {

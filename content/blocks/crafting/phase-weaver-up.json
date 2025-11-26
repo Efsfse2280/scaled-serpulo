@@ -37,13 +37,13 @@
     }
   },
   "requirements": [
-    "silicon/600",
-    "titanium/480",
-    "lead/600",
-    "plastanium/320",
-    "thorium/320",
-    "phase-fabric/120",
-    "surge-alloy/200"
+    "lead/540",
+    "silicon/480",
+    "titanium/450",
+    "plastanium/340",
+    "thorium/400",
+    "phase-fabric/110",
+    "surge-alloy/190"
   ],
   "category": "crafting",
   "research": "phase-weaver",

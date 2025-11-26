@@ -7,7 +7,7 @@
   "research": "silicon-wall",
   "category": "defense",
   "buildCostMultiplier": 0.6,
-  "requirements": ["metaglass/7", "lead/4"],
+  "requirements": ["lead/4", "metaglass/7"],
   "destroyBullet": {
     "type": "BasicBulletType",
     "instantDisappear": true,

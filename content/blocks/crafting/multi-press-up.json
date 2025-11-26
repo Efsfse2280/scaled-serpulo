@@ -6,25 +6,25 @@
   "hasItems": true,
   "itemCapacity": 120,
   "liquidCapacity": 36,
-  "craftTime": 294,
+  "craftTime": 314,
   "craftEffect": "pulverize",
   "updateEffect": "pulverizeSmall",
   "consumes": {
-    "power": 9,
+    "power": 11,
     "items": {
       "items": ["coal/20"]
     },
     "liquid": {
       "liquid": "oil",
-      "amount": 0.1
+      "amount": 0.8
     }
   },
   "requirements": [
-    "lead/320",
-    "graphite/260",
-    "titanium/220",
-    "silicon/240",
-    "plastanium/100"
+    "lead/360",
+    "graphite/200",
+    "silicon/300",
+    "titanium/240",
+    "plastanium/90"
   ],
   "category": "crafting",
   "research": "multi-press",

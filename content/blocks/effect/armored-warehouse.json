@@ -4,11 +4,11 @@
   "researchCostMultiplier": 0.5,
   "scaledHealth": 120,
   "armor": 4,
-  "itemCapacity": 2400,
+  "itemCapacity": 2000,
   "research": {
     "parent": "vault",
     "objectives": ["core-nucleus"]
   },
   "category": "effect",
-  "requirements": ["thorium/430", "surge-alloy/240", "plastanium/320","phase-fabric/80"]
+  "requirements": ["plastanium/310", "thorium/400", "phase-fabric/170", "surge-alloy/130"]
 }

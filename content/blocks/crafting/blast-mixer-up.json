@@ -37,10 +37,10 @@
     }
   },
   "requirements": [
-    "copper/320",
-    "titanium/200",
-    "silicon/320",
-    "metaglass/260",
+    "copper/280",
+    "silicon/280",
+    "metaglass/220",
+    "titanium/160",
     "plastanium/80",
     "thorium/40"
   ],

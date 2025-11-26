@@ -43,9 +43,9 @@
   "research": "steam-generator",
   "requirements": [
     "copper/300",
-    "titanium/200",
     "silicon/240",
     "metaglass/160",
+    "titanium/200",
     "plastanium/100"
   ]
 }

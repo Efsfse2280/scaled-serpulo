@@ -31,8 +31,8 @@
   },
   "requirements": [
     "copper/80",
-    "silicon/40",
     "graphite/40",
+    "silicon/40",
     "metaglass/30"
   ]
 }

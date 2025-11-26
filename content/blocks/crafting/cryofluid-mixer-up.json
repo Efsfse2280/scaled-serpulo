@@ -37,25 +37,25 @@
   "rotate": true,
   "itemCapacity": 80,
   "liquidCapacity": 320,
-  "craftTime": 421,
+  "craftTime": 211,
   "outputsLiquid": true,
   "consumes": {
     "power": 11.4,
     "items": {
-      "items": ["titanium/20"]
+      "items": ["titanium/10"]
     },
     "liquid": {
       "liquid": "water",
-      "amount": 1.2
+      "amount": 1.4
     }
   },
   "requirements": [
-    "lead/260",
-    "copper/230", 
+    "lead/240",
+    "copper/280", 
+    "silicon/220",
     "titanium/190",
-    "silicon/240",
-    "plastanium/120",
-    "metaglass/300"
+    "plastanium/100",
+    "metaglass/290"
   ],
   "category": "crafting",
   "research": {

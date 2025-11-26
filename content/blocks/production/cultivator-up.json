@@ -2,11 +2,11 @@
   "type": "AttributeCrafter",
   "category": "production",
   "requirements": [
-    "lead/210",
-    "plastanium/100",
-    "silicon/140",
-    "metaglass/160",
-    "thorium/70"
+    "lead/220",
+    "silicon/130",
+    "metaglass/170",
+    "plastanium/90",
+    "thorium/80"
   ],
   "outputItem": "spore-pod/10",
   "craftTime": 189,

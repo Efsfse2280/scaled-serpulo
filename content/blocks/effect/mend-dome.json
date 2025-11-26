@@ -20,11 +20,11 @@
     }
   },
   "requirements": [
-    "silicon/400",
     "lead/440",
     "graphite/360",
-    "plastanium/240",
+    "silicon/400",
     "titanium/300",
+    "plastanium/240",
     "surge-alloy/160"
   ],
   "category": "effect",

@@ -8,5 +8,5 @@
   "consumes": { "power": 0.8 },
   "research": "illuminator",
   "category": "effect",
-  "requirements": ["silicon/120", "thorium/40", "plastanium/70"]
+  "requirements": ["silicon/120", "plastanium/70", "thorium/40"]
 }

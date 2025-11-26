@@ -7,11 +7,11 @@
   "hasPower": true,
   "category": "power",
   "requirements": [
+    "lead/200",
     "silicon/160",
     "titanium/140",
-    "lead/200",
-    "surge-alloy/60",
-    "plastanium/90"
+    "plastanium/90",
+    "surge-alloy/60"
   ],
   "research": "power-node-large"
 }

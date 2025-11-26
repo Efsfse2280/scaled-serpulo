@@ -7,7 +7,7 @@
   "research": "metaglass-wall-gigantic",
   "category": "defense",
   "buildCostMultiplier": 1.5,
-  "requirements": ["metaglass/250", "lead/175", "titanium/45"],
+  "requirements": ["lead/175", "metaglass/250", "titanium/45"],
   "destroyBullet": {
     "type": "BasicBulletType",
     "instantDisappear": true,

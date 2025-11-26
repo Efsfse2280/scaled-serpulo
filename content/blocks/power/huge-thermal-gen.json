@@ -5,12 +5,11 @@
   "powerProduction": 2.5,
   "generateEffect": "redgeneratespark",
   "floating": true,
-  "hasLiquids": true,
   "requirements": [
-    "metaglass/280",
     "silicon/320",
-    "thorium/240",
-    "plastanium/110"
+    "metaglass/280",
+    "plastanium/110",
+    "thorium/240"
   ],
   "category": "power",
   "research": "thermal-generator"

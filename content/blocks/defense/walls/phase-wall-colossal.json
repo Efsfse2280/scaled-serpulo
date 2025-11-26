@@ -7,6 +7,6 @@
   "buildCostMultiplier": 5,
   "chanceDeflect": 10,
   "flashHit": true,
-  "requirements": ["phase-fabric/225", "thorium/150", "surge-alloy/45"],
+  "requirements": ["thorium/150", "phase-fabric/225", "surge-alloy/45"],
   "floating": true
 }

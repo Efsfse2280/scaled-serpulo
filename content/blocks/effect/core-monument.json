@@ -1,7 +1,7 @@
 {
   "type": "CoreBlock",
-  "scaledHealth": 390,
-  "armor": 8,
+  "scaledHealth": 350,
+  "armor": 4,
   "size": 6,
   "itemCapacity": 21000,
   "unitCapModifier": 36,
@@ -11,12 +11,12 @@
   "requirements": [
     "copper/16000",
     "lead/16000",
-    "titanium/14000",
-    "thorium/10000",
     "silicon/15000",
+    "titanium/14000",
     "plastanium/12000",
-    "surge-alloy/8000",
-    "phase-fabric/6000"
+    "thorium/10000",
+    "phase-fabric/7000",
+    "surge-alloy/8000"
   ],
   "category": "effect",
   "research": {

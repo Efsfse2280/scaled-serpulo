@@ -9,8 +9,8 @@ consumes: {
 requirements: [
   copper/70
   lead/50
-  titanium/40
-  silicon/30
+  silicon/45
+  titanium/30
 ]
 category: turret
 research: arc

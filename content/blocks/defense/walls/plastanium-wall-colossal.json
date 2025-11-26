@@ -8,6 +8,6 @@
   "absorbLasers": true,
   "schematicPriority": 10,
   "buildCostMultiplier": 5,
-  "requirements": ["plastanium/225", "metaglass/150", "thorium/45"],
+  "requirements": ["metaglass/150", "plastanium/225", "thorium/45"],
   "floating": true
 }

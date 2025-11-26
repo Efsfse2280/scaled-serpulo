@@ -45,12 +45,12 @@
   },
   "requirements": [
     "copper/540",
-    "silicon/400",
-    "titanium/360",
-    "plastanium/240",
-    "thorium/200",
-    "phase-fabric/160",
-    "surge-alloy/140"
+    "silicon/390",
+    "titanium/370",
+    "plastanium/230",
+    "thorium/250",
+    "phase-fabric/210",
+    "surge-alloy/130"
   ],
   "category": "crafting",
   "research": {

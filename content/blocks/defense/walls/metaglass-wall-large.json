@@ -7,7 +7,7 @@
   "research": "metaglass-wall",
   "category": "defense",
   "buildCostMultiplier": 0.6,
-  "requirements": ["metaglass/28", "lead/16"],
+  "requirements": ["lead/16", "metaglass/28"],
   "destroyBullet": {
     "type": "BasicBulletType",
     "instantDisappear": true,

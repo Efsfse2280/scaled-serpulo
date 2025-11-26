@@ -1,0 +1,43 @@
+{
+  "type": "Drill",
+  "size": 5,
+  "scaledHealth": 65,
+  "tier": 5,
+  "rotateSpeed": 4.8,
+  "drillTime": 268,
+  "liquidBoostIntensity": 1.96,
+  "drawRim": true,
+  "itemCapacity": 40,
+  "warmupSpeed": 0.0439,
+  "drillEffect": "mine",
+  "hasLiquids": true,
+  "hardnessDrillMultiplier": 7,
+  "liquidCapacity": 120,
+  "consumes": {
+    "power": 14,
+    "liquids": [
+      {
+        "liquid": "water",
+        "amount": 0.6,
+        "optional": false,
+        "booster": false
+      },
+      {
+        "liquid": "cryofluid",
+        "amount": 0.15,
+        "booster": true,
+        "optional": true
+      }
+    ]
+  },
+  "requirements": [
+    "lead/250",
+    "graphite/180",
+    "silicon/210",
+    "metaglass/190",
+    "plastanium/130",
+    "surge-alloy/50"
+  ],
+  "category": "production",
+  "research": "blast-drill"
+}
