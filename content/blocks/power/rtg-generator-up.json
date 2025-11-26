@@ -13,32 +13,32 @@
       {
         "type": "DrawWarmupRegion"
       }
-    ],
-    "hasItems": true,
-    "itemCapacity": 40,
-    "itemDuration": 1440,
-    "consumes": {
-      "items": {
-        "items": ["phase-fabric/1"]
-      },
-      "liquids": {
-        "liquids": ["water/0.2"]
-      }
+    ]
+  },
+  "hasItems": true,
+  "itemCapacity": 40,
+  "itemDuration": 1440,
+  "consumes": {
+    "items": {
+      "items": ["phase-fabric/1"]
     },
-    "requirements": [
-      "lead/400",
-      "silicon/460",
-      "plastanium/290",
-      "thorium/330",
-      "phase-fabric/150",
-      "surge-alloy/170"
-    ],
-    "category": "power",
-    "research": {
-      "parent": "rtg-generator",
-      "objectives": ["thorium-reactor-up"]
-    },
-    "loopSound": "hum",
-    "ambientSound": "machine"
-  }
+    "liquids": {
+      "liquids": ["water/0.2"]
+    }
+  },
+  "requirements": [
+    "lead/400",
+    "silicon/460",
+    "plastanium/290",
+    "thorium/330",
+    "phase-fabric/150",
+    "surge-alloy/170"
+  ],
+  "category": "power",
+  "research": {
+    "parent": "rtg-generator",
+    "objectives": ["thorium-reactor-up"]
+  },
+  "loopSound": "hum",
+  "ambientSound": "machine"
 }
