@@ -15,11 +15,13 @@
   "liquidCapacity": 120,
   "consumes": {
     "power": 14,
-    "liquids": [{ "liquid": "water", "amount": 0.6 }],
-    "liquidBoost": {
+    "liquid": {
       "liquid": "cryofluid",
-      "amount": 0.15
-    }
+      "amount": 0.15,
+      "optional": true,
+      "booster": true
+    },
+    "liquids": ["water/0.6"]
   },
   "requirements": [
     "lead/250",
