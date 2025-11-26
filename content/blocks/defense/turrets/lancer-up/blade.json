@@ -4,16 +4,16 @@
   "scaledHealth": 230,
   "range": 173,
   "rotateSpeed": 3.8,
-  "reload": 146,
+  "reload": 116,
   "targetAir": false,
   "shoot": {
     "type": "ShootBarrel",
     "shots": 3,
     "firstShotDelay": 30,
-    "accurateDelay": false,
     "shotDelay": 7,
     "barrels": [0, 0, 0, 6.5, -1, 0, -6.5, -1, 0]
   },
+  "accurateDelay": false,
   "consumes": {
     "power": 11.7,
     "coolant": {
@@ -33,5 +33,5 @@
   },
   "coolantMultiplier": 3,
   "category": "turret",
-  "requirements": ["lead/400", "graphite/320", "silicon/200", "plastanium/120"]
+  "requirements": ["lead/360", "graphite/240", "silicon/220", "plastanium/90"]
 }

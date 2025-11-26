@@ -39,6 +39,5 @@
     "parent": "rtg-generator",
     "objectives": ["thorium-reactor-up"]
   },
-  "loopSound": "hum",
-  "ambientSound": "machine"
+  "ambientSound": "hum"
 }
