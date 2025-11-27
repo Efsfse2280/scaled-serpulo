@@ -9,14 +9,14 @@
     "coal": 1.4
   },
   "rotateSpeed": 1.8,
-  "drillTime": 496,
+  "drillTime": 492,
   "drawRim": false,
   "itemCapacity": 20,
   "warmupSpeed": 0.01,
   "drillEffect": "mine",
   "hasLiquids": true,
   "liquidCapacity": 60,
-  "hardnessDrillMultiplier": 40,
+  "hardnessDrillMultiplier": 44,
   "consumes": {
     "liquid": {
       "liquid": "water",

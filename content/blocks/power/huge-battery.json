@@ -8,9 +8,9 @@
   "research": "battery-large",
   "category": "power",
   "requirements": [
-    "lead/240",
-    "silicon/200",
-    "titanium/180",
-    "thorium/120"
+    "lead/210",
+    "silicon/170",
+    "titanium/150",
+    "thorium/90"
   ]
 }

@@ -38,13 +38,13 @@
   "hasLiquids": true,
   "hasItems": true,
   "itemCapacity": 30,
-  "boostScale": 0.08,
+  "boostScale": 0.1,
   "maxBoost": 4,
   "craftTime": 184,
   "liquidCapacity": 200,
   "attribute": "oil",
   "consumes": {
-    "power": 27.9,
+    "power": 25.4,
     "items": {
       "items": [
         "sand/10"
