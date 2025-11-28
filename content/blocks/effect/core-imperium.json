@@ -1,0 +1,23 @@
+{
+  "type": "CoreBlock",
+  "scaledHealth": 480,
+  "armor": 9,
+  "size": 7,
+  "itemCapacity": 24000,
+  "unitCapModifier": 40,
+  "researchCostMultiplier": 0.2,
+  "thrusterLength": 9,
+  "unitType": "04-regent",
+  "requirements": [
+    "graphite/17000",
+    "silicon/16000",
+    "metaglass/16000",
+    "titanium/14000",
+    "plastanium/14000",
+    "thorium/12000",
+    "phase-fabric/8000",
+    "surge-alloy/10000"
+  ],
+  "category": "effect",
+  "research": "core-dominion"
+}
