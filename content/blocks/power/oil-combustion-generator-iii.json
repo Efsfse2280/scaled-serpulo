@@ -54,7 +54,7 @@
         "type": "SectorComplete",
         "preset": "tarFields"
       },
-      "thorium-generator"
+      "thorium-reactor"
     ]
   },
   "requirements": [
