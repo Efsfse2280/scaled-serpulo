@@ -4,9 +4,8 @@
   "scaledHealth": 50,
   "tier": 3,
   "drillMultipliers": {
-    "sand": 1.8,
     "scrap": 1.6,
-    "coal": 1.4
+    "coal": 1.6
   },
   "rotateSpeed": 1.8,
   "drillTime": 492,

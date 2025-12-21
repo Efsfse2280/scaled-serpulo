@@ -2,27 +2,28 @@
   "type": "OverdriveProjector",
   "scaledHealth": 90,
   "size": 4,
-  "range": 227,
-  "itemCapacity": 25,
+  "range": 288,
+  "itemCapacity": 40,
+  "useTime": 480,
   "consumes": {
-    "power": 37,
+    "power": 30,
     "items": {
-      "items": ["silicon/2", "phase-fabric/2", "surge-alloy/2"],
+      "items": ["silicon/8", "phase-fabric/3", "surge-alloy/1"],
       "booster": false,
       "optional": false
     }
   },
-  "speedBoost": 2,
+  "speedBoost": 1.40,
   "hasBoost": false,
   "speedBoostPhase": 0,
   "requirements": [
     "lead/800",
-    "silicon/720",
-    "metaglass/660",
+    "silicon/600",
+    "metaglass/480",
     "plastanium/540",
-    "thorium/520",
-    "phase-fabric/360",
-    "surge-alloy/280"
+    "thorium/600",
+    "phase-fabric/300",
+    "surge-alloy/340"
   ],
   "category": "effect",
   "research": {

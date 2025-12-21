@@ -2,6 +2,9 @@
   "shootSound": "shootAlt",
   "ammoPerShot": 4,
   "maxAmmo": 24,
+  "shoot": {
+    "firstShotDelay": 60
+  },
   "ammoTypes": {
     "copper": {
       "type": "ShrapnelBulletType",
