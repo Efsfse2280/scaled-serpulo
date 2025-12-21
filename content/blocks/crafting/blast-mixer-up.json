@@ -23,7 +23,6 @@
   "craftEffect": "blastsmoke",
   "hasPower": true,
   "hasItems": true,
-  "liquidCapacity": 80,
   "itemCapacity": 60,
   "craftTime": 282,
   "consumes": {

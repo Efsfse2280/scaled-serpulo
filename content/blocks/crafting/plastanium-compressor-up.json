@@ -24,7 +24,6 @@
   "hasPower": true,
   "hasItems": true,
   "itemCapacity": 80,
-  "liquidCapacity": 144,
   "craftTime": 240,
   "craftEffect": "formsmoke",
   "updateEffect": "plasticburn",

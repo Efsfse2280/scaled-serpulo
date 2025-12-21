@@ -12,7 +12,6 @@
   "drillEffect": "mine",
   "hasLiquids": true,
   "hardnessDrillMultiplier": 40,
-  "liquidCapacity": 120,
   "consumes": {
     "power": 14,
     "liquid": {

@@ -14,7 +14,6 @@
   "warmupSpeed": 0.01,
   "drillEffect": "mine",
   "hasLiquids": true,
-  "liquidCapacity": 60,
   "hardnessDrillMultiplier": 44,
   "consumes": {
     "liquid": {

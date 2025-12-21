@@ -4,7 +4,6 @@
   "hasPower": true,
   "powerProduction": 3.8,
   "ambientSound": "steam",
-  "liquidCapacity": 60,
   "generateEffect": {
     "type": "RadialEffect",
     "amount": 16,

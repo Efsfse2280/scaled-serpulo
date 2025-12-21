@@ -41,7 +41,6 @@
   "boostScale": 0.1,
   "maxBoost": 4,
   "craftTime": 184,
-  "liquidCapacity": 200,
   "attribute": "oil",
   "consumes": {
     "power": 25.4,
@@ -52,7 +51,7 @@
     },
     "liquids": {
       "liquids": [
-        "water/0.713",
+        "water/0.72",
         "cryofluid/0.16"
       ]
     }

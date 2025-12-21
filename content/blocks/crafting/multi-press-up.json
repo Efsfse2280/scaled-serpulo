@@ -5,7 +5,6 @@
   "hasPower": true,
   "hasItems": true,
   "itemCapacity": 120,
-  "liquidCapacity": 36,
   "craftTime": 314,
   "craftEffect": "pulverize",
   "updateEffect": "pulverizeSmall",

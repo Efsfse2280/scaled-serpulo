@@ -9,7 +9,6 @@
   "explodeSound": "explosionbig",
   "powerProduction": 640,
   "itemCapacity": 50,
-  "liquidCapacity": 400,
   "explosionRadius": 30,
   "explosionDamage": 8000,
   "itemDuration": 139,
