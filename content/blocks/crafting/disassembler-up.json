@@ -42,7 +42,7 @@
       "amount": 0.85
     }
   },
-  "results": ["scrap/11", "graphite/13", "titanium/9", "thorium/7"],
+  "results": ["lead/11", "graphite/13", "titanium/9", "thorium/7"],
   "category": "crafting",
   "research": "disassembler",
   "requirements": [

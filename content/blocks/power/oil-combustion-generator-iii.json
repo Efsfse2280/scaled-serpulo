@@ -52,7 +52,7 @@
     "objectives": [
       {
         "type": "SectorComplete",
-        "preset": "TarFields"
+        "preset": "tarFields"
       },
       "thorium-generator"
     ]
