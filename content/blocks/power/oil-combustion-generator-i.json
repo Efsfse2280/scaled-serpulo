@@ -46,9 +46,6 @@
     }
   },
   "category": "power",
-  "research": {
-    "parent": "steam-generator",
-    "objectives": ["slowburn-generator"]
-  },
+  "research": "steam-generator",
   "requirements": ["lead/60", "silicon/40", "metaglass/50", "titanium/30"]
 }
