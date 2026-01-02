@@ -19,7 +19,7 @@
   "engineSize": 6,
   "weapons": [
     {
-      "name": "a-regent-weapon1",
+      "name": "04-regent-weapon1",
       "reload": 35,
       "mirror": true,
       "rotate": true,
@@ -49,7 +49,7 @@
       }
     },
     {
-      "name": "a-regent-weapon2",
+      "name": "04-regent-weapon2",
       "reload": 48,
       "top": true,
       "mirror": false,
